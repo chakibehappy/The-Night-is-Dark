@@ -1,0 +1,677 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s4d1_the_boss
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+    BasePortName: 1756fb8b-fbcc-483b-8795-3bf4d1fe1cca
+    TargetCardGuid: a2486556-2fbc-4630-b456-5066644e9da5
+    TargetPortName: Input
+  - BaseCardGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+    BasePortName: db7f07bb-cafa-48ec-8448-bbcd1d019a11
+    TargetCardGuid: 332deccb-9c9f-4a50-8f62-cc4732d4a67a
+    TargetPortName: Input
+  - BaseCardGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+    BasePortName: ef012df8-e807-4e88-a3bb-13d0bb29cdba
+    TargetCardGuid: b5c05983-c2a6-43ed-9b7a-f83d492fc018
+    TargetPortName: Input
+  - BaseCardGuid: b8737fbb-095c-4005-8be4-50c5d22704fa
+    BasePortName: Output
+    TargetCardGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+    TargetPortName: Input
+  - BaseCardGuid: a2486556-2fbc-4630-b456-5066644e9da5
+    BasePortName: Output
+    TargetCardGuid: 139a8281-efce-4f59-bd0a-cd084779b078
+    TargetPortName: Input
+  - BaseCardGuid: 139a8281-efce-4f59-bd0a-cd084779b078
+    BasePortName: Continue
+    TargetCardGuid: 847c7b98-5b33-4946-a5f8-82355086c47d
+    TargetPortName: Input
+  - BaseCardGuid: 332deccb-9c9f-4a50-8f62-cc4732d4a67a
+    BasePortName: Output
+    TargetCardGuid: bb0fb568-804a-437b-a983-538660f586f0
+    TargetPortName: Input
+  - BaseCardGuid: bb0fb568-804a-437b-a983-538660f586f0
+    BasePortName: Continue
+    TargetCardGuid: daf8d3d2-7a83-40e1-b866-f28dcdb57716
+    TargetPortName: Input
+  - BaseCardGuid: b5c05983-c2a6-43ed-9b7a-f83d492fc018
+    BasePortName: Output
+    TargetCardGuid: be1f64d2-7613-4a1a-8763-18ac1a53ddc3
+    TargetPortName: Input
+  - BaseCardGuid: be1f64d2-7613-4a1a-8763-18ac1a53ddc3
+    BasePortName: Continue
+    TargetCardGuid: 10ffbb12-0f5b-4913-9910-fb1b82d7c951
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: b8737fbb-095c-4005-8be4-50c5d22704fa
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: The boss
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 5
+      CharacterName:
+        Value: The boss
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 3fda7442-c460-47f6-8e6e-6eda4399fa06
+      Texts:
+      - Name: 1
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 2
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 3
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 4
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 5
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 6
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 7
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 8
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 9
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      - Name: 10
+        Value: "Hello sir! You didn\u2019t have a meeting scheduled, right?"
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 58065712-390e-4ba1-a8b9-0ea1d2c2c209
+      Texts:
+      - Name: 1
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 2
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 3
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 4
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 5
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 6
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 7
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 8
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 9
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      - Name: 10
+        Value: "Hello. I\u2019m Detective Aiden Hayes from the Police Department."
+      AudioClips: []
+    - ID:
+        Value: 4
+      GuidID:
+        Value: 063ae1ef-01f6-4568-9e38-4bb7862651f4
+      Texts:
+      - Name: 1
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 2
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 3
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 4
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 5
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 6
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 7
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 8
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 9
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      - Name: 10
+        Value: We want to ask a few questions about one of your employees - Connie
+          Matthews.
+      AudioClips: []
+    - ID:
+        Value: 6
+      GuidID:
+        Value: f5879b30-7f5b-488e-beb2-73c18acb8327
+      Texts:
+      - Name: 1
+        Value: Alright, how can I help?
+      - Name: 2
+        Value: Alright, how can I help?
+      - Name: 3
+        Value: Alright, how can I help?
+      - Name: 4
+        Value: Alright, how can I help?
+      - Name: 5
+        Value: Alright, how can I help?
+      - Name: 6
+        Value: Alright, how can I help?
+      - Name: 7
+        Value: Alright, how can I help?
+      - Name: 8
+        Value: Alright, how can I help?
+      - Name: 9
+        Value: Alright, how can I help?
+      - Name: 10
+        Value: Alright, how can I help?
+      AudioClips: []
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: 1756fb8b-fbcc-483b-8795-3bf4d1fe1cca
+      InputGuid: a2486556-2fbc-4630-b456-5066644e9da5
+      OutputGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+    - ID:
+        Value: 0
+      PortGuid: db7f07bb-cafa-48ec-8448-bbcd1d019a11
+      InputGuid: 332deccb-9c9f-4a50-8f62-cc4732d4a67a
+      OutputGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+    - ID:
+        Value: 0
+      PortGuid: ef012df8-e807-4e88-a3bb-13d0bb29cdba
+      InputGuid: b5c05983-c2a6-43ed-9b7a-f83d492fc018
+      OutputGuid: 50fe09e1-05bf-4f54-b041-1c153def0400
+  - CardGuid: 139a8281-efce-4f59-bd0a-cd084779b078
+    Position: {x: 1150, y: 350}
+    Names:
+    - ID:
+        Value: 7
+      CharacterName:
+        Value: The boss
+    - ID:
+        Value: 9
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 11
+      CharacterName:
+        Value: The boss
+    - ID:
+        Value: 14
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 16
+      CharacterName:
+        Value: The boss
+    Dialogues:
+    - ID:
+        Value: 8
+      GuidID:
+        Value: 30b28842-8a76-446a-88ff-18ce131abb12
+      Texts:
+      - Name: 1
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 2
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 3
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 4
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 5
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 6
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 7
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 8
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 9
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      - Name: 10
+        Value: She was working on this new metal, Neronium. Highly revolutionary
+          resource, it will change the world for good!
+      AudioClips: []
+    - ID:
+        Value: 10
+      GuidID:
+        Value: 0dc450bf-3459-420f-a1f7-808c0be496c2
+      Texts:
+      - Name: 1
+        Value: Did she work alone on that project?
+      - Name: 2
+        Value: Did she work alone on that project?
+      - Name: 3
+        Value: Did she work alone on that project?
+      - Name: 4
+        Value: Did she work alone on that project?
+      - Name: 5
+        Value: Did she work alone on that project?
+      - Name: 6
+        Value: Did she work alone on that project?
+      - Name: 7
+        Value: Did she work alone on that project?
+      - Name: 8
+        Value: Did she work alone on that project?
+      - Name: 9
+        Value: Did she work alone on that project?
+      - Name: 10
+        Value: Did she work alone on that project?
+      AudioClips: []
+    - ID:
+        Value: 12
+      GuidID:
+        Value: 9b0f8d35-2f84-4a4c-b227-e5c0e6f927e2
+      Texts:
+      - Name: 1
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 2
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 3
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 4
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 5
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 6
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 7
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 8
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 9
+        Value: No, she was working with Aaron Rees, another geologist.
+      - Name: 10
+        Value: No, she was working with Aaron Rees, another geologist.
+      AudioClips: []
+    - ID:
+        Value: 13
+      GuidID:
+        Value: 40b55a7f-c3bc-4521-9b13-d51e99289c04
+      Texts:
+      - Name: 1
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 2
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 3
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 4
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 5
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 6
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 7
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 8
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 9
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      - Name: 10
+        Value: They even were interviewed multiple times! Our company is on tongues
+          of many ecological companies.
+      AudioClips: []
+    - ID:
+        Value: 15
+      GuidID:
+        Value: 894021a8-408d-4b89-93e5-9da105dd39c5
+      Texts:
+      - Name: 1
+        Value: Can I talk to him?
+      - Name: 2
+        Value: Can I talk to him?
+      - Name: 3
+        Value: Can I talk to him?
+      - Name: 4
+        Value: Can I talk to him?
+      - Name: 5
+        Value: Can I talk to him?
+      - Name: 6
+        Value: Can I talk to him?
+      - Name: 7
+        Value: Can I talk to him?
+      - Name: 8
+        Value: Can I talk to him?
+      - Name: 9
+        Value: Can I talk to him?
+      - Name: 10
+        Value: Can I talk to him?
+      AudioClips: []
+    - ID:
+        Value: 17
+      GuidID:
+        Value: f0811ad3-fdd5-40f2-9da9-4af312a5376c
+      Texts:
+      - Name: 1
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 2
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 3
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 4
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 5
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 6
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 7
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 8
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 9
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      - Name: 10
+        Value: "Oh he\u2019s not working today, you can come tomorrow."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: bb0fb568-804a-437b-a983-538660f586f0
+    Position: {x: 1500, y: 650}
+    Names:
+    - ID:
+        Value: 18
+      CharacterName:
+        Value: The boss
+    - ID:
+        Value: 20
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 22
+      CharacterName:
+        Value: The boss
+    Dialogues:
+    - ID:
+        Value: 19
+      GuidID:
+        Value: 8890e412-898a-4cdf-a5ef-c52b41040e83
+      Texts:
+      - Name: 1
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 2
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 3
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 4
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 5
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 6
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 7
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 8
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 9
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      - Name: 10
+        Value: Two days ago. She needed some time off as she and her husband separated.
+      AudioClips: []
+    - ID:
+        Value: 21
+      GuidID:
+        Value: 8d13f346-02d9-43ee-a91f-a3817b34afdd
+      Texts:
+      - Name: 1
+        Value: Do you know the reason?
+      - Name: 2
+        Value: Do you know the reason?
+      - Name: 3
+        Value: Do you know the reason?
+      - Name: 4
+        Value: Do you know the reason?
+      - Name: 5
+        Value: Do you know the reason?
+      - Name: 6
+        Value: Do you know the reason?
+      - Name: 7
+        Value: Do you know the reason?
+      - Name: 8
+        Value: Do you know the reason?
+      - Name: 9
+        Value: Do you know the reason?
+      - Name: 10
+        Value: Do you know the reason?
+      AudioClips: []
+    - ID:
+        Value: 23
+      GuidID:
+        Value: 47450da9-bc4c-4ffa-88fb-a2e0792a96fe
+      Texts:
+      - Name: 1
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 2
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 3
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 4
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 5
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 6
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 7
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 8
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 9
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      - Name: 10
+        Value: "People gossip she had an affair, but I don\u2019t know, not my business,
+          you know? I\u2019m focusing on their productivity, not their private life."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: be1f64d2-7613-4a1a-8763-18ac1a53ddc3
+    Position: {x: 1850, y: 950}
+    Names:
+    - ID:
+        Value: 24
+      CharacterName:
+        Value: The boss
+    - ID:
+        Value: 26
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 25
+      GuidID:
+        Value: 7fad797c-975a-4776-8bbe-dbf4eb750776
+      Texts:
+      - Name: 1
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 2
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 3
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 4
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 5
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 6
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 7
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 8
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 9
+        Value: Of course. Can I ask what happened exactly?
+      - Name: 10
+        Value: Of course. Can I ask what happened exactly?
+      AudioClips: []
+    - ID:
+        Value: 27
+      GuidID:
+        Value: 86f38024-7c9d-4d29-8e25-b58472790843
+      Texts:
+      - Name: 1
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 2
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 3
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 4
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 5
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 6
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 7
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 8
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 9
+        Value: "That\u2019s confidential for now. Goodbye."
+      - Name: 10
+        Value: "That\u2019s confidential for now. Goodbye."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas:
+  - CardGuid: a2486556-2fbc-4630-b456-5066644e9da5
+    Position: {x: 800, y: 350}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: What was Connie working on?
+    - Name: 2
+      Value: What was Connie working on?
+    - Name: 3
+      Value: What was Connie working on?
+    - Name: 4
+      Value: What was Connie working on?
+    - Name: 5
+      Value: What was Connie working on?
+    - Name: 6
+      Value: What was Connie working on?
+    - Name: 7
+      Value: What was Connie working on?
+    - Name: 8
+      Value: What was Connie working on?
+    - Name: 9
+      Value: What was Connie working on?
+    - Name: 10
+      Value: What was Connie working on?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: 332deccb-9c9f-4a50-8f62-cc4732d4a67a
+    Position: {x: 800, y: 500}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: When was the last time you saw Connie?
+    - Name: 2
+      Value: When was the last time you saw Connie?
+    - Name: 3
+      Value: When was the last time you saw Connie?
+    - Name: 4
+      Value: When was the last time you saw Connie?
+    - Name: 5
+      Value: When was the last time you saw Connie?
+    - Name: 6
+      Value: When was the last time you saw Connie?
+    - Name: 7
+      Value: When was the last time you saw Connie?
+    - Name: 8
+      Value: When was the last time you saw Connie?
+    - Name: 9
+      Value: When was the last time you saw Connie?
+    - Name: 10
+      Value: When was the last time you saw Connie?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: b5c05983-c2a6-43ed-9b7a-f83d492fc018
+    Position: {x: 800, y: 650}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Thank you for the information.
+    - Name: 2
+      Value: Thank you for the information.
+    - Name: 3
+      Value: Thank you for the information.
+    - Name: 4
+      Value: Thank you for the information.
+    - Name: 5
+      Value: Thank you for the information.
+    - Name: 6
+      Value: Thank you for the information.
+    - Name: 7
+      Value: Thank you for the information.
+    - Name: 8
+      Value: Thank you for the information.
+    - Name: 9
+      Value: Thank you for the information.
+    - Name: 10
+      Value: Thank you for the information.
+    VoiceOvers: []
+    Conditions: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 847c7b98-5b33-4946-a5f8-82355086c47d
+    Position: {x: 1500, y: 250}
+    EndState:
+      Value: 3
+  - CardGuid: daf8d3d2-7a83-40e1-b866-f28dcdb57716
+    Position: {x: 1850, y: 550}
+    EndState:
+      Value: 3
+  - CardGuid: 10ffbb12-0f5b-4913-9910-fb1b82d7c951
+    Position: {x: 2200, y: 850}
+    EndState:
+      Value: 1

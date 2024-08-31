@@ -1,0 +1,1903 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s6d1_aaron_rees
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: cd40ed93-fbc5-4fb3-b457-85833975bdf0
+    BasePortName: Output
+    TargetCardGuid: acbcc2dd-6b50-4bbe-b59f-5469bebfaffe
+    TargetPortName: Input
+  - BaseCardGuid: 1d79bc70-29b9-4953-9fa9-3e475110bda1
+    BasePortName: Output
+    TargetCardGuid: 666711eb-7a50-48b8-aef0-06ebe7e0aebe
+    TargetPortName: Input
+  - BaseCardGuid: 65c58a6a-3d16-4f4f-b7ad-15a0313807f7
+    BasePortName: Output
+    TargetCardGuid: 7b23eacc-deae-4251-998f-c6c1373ff7eb
+    TargetPortName: Input
+  - BaseCardGuid: e8f0194f-fb15-437c-83f3-102a2cab796c
+    BasePortName: Output
+    TargetCardGuid: db1ce8cd-28cc-4ff6-9a9a-628b3a9dfbb2
+    TargetPortName: Input
+  - BaseCardGuid: 0fc90be8-184d-4e4b-9925-652fe2f42c87
+    BasePortName: Output
+    TargetCardGuid: 681d66a4-129c-472b-a386-8c545954656a
+    TargetPortName: Input
+  - BaseCardGuid: ecc9561a-0997-4d00-ac15-1ba63d71ad3a
+    BasePortName: Output
+    TargetCardGuid: e3126ea5-e3af-42ff-a381-a928df07a482
+    TargetPortName: Input
+  - BaseCardGuid: acbcc2dd-6b50-4bbe-b59f-5469bebfaffe
+    BasePortName: d89bddab-36f9-419a-8a48-50802a675928
+    TargetCardGuid: 1d79bc70-29b9-4953-9fa9-3e475110bda1
+    TargetPortName: Input
+  - BaseCardGuid: acbcc2dd-6b50-4bbe-b59f-5469bebfaffe
+    BasePortName: 3b924212-f9f9-4b95-92d3-59b9ab7d01da
+    TargetCardGuid: 65c58a6a-3d16-4f4f-b7ad-15a0313807f7
+    TargetPortName: Input
+  - BaseCardGuid: 666711eb-7a50-48b8-aef0-06ebe7e0aebe
+    BasePortName: Continue
+    TargetCardGuid: f90bc118-d0d6-4a6d-8a52-ed596cbcd946
+    TargetPortName: Input
+  - BaseCardGuid: 7b23eacc-deae-4251-998f-c6c1373ff7eb
+    BasePortName: 9b8e7c12-5aa1-4965-9af1-d57243f44b7a
+    TargetCardGuid: e8f0194f-fb15-437c-83f3-102a2cab796c
+    TargetPortName: Input
+  - BaseCardGuid: 7b23eacc-deae-4251-998f-c6c1373ff7eb
+    BasePortName: 5e8bdb69-c39c-40c6-97e3-685ce7cf6748
+    TargetCardGuid: 0fc90be8-184d-4e4b-9925-652fe2f42c87
+    TargetPortName: Input
+  - BaseCardGuid: db1ce8cd-28cc-4ff6-9a9a-628b3a9dfbb2
+    BasePortName: Continue
+    TargetCardGuid: dccdcf8e-6d74-4265-bda7-38e7b6eaa7fc
+    TargetPortName: Input
+  - BaseCardGuid: 681d66a4-129c-472b-a386-8c545954656a
+    BasePortName: d45c9030-6b2d-4239-ae92-f22203b5d5af
+    TargetCardGuid: ecc9561a-0997-4d00-ac15-1ba63d71ad3a
+    TargetPortName: Input
+  - BaseCardGuid: e3126ea5-e3af-42ff-a381-a928df07a482
+    BasePortName: Continue
+    TargetCardGuid: 28dfbb34-4052-45f0-a8dd-67cd37fbe777
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: cd40ed93-fbc5-4fb3-b457-85833975bdf0
+    Position: {x: 100, y: 350.40002}
+  DialogueDatas:
+  - CardGuid: acbcc2dd-6b50-4bbe-b59f-5469bebfaffe
+    Position: {x: 450.4, y: 350.40002}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aaron Rees
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 9fed5a24-656d-4c3e-ad40-3743826f17b8
+      Texts:
+      - Name: 1
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 2
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 3
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 4
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 5
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 6
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 7
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 8
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 9
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      - Name: 10
+        Value: "Hello sir, I\u2019m Detective Aiden Hayes. I want to ask you a few
+          questions about your coworker, Connie Matthews."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: b7b2c941-c53e-4f6e-a78a-f0e482967c35
+      Texts:
+      - Name: 1
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 2
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 3
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 4
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 5
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 6
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 7
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 8
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 9
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      - Name: 10
+        Value: "Ah yes, hello. My boss told me you\u2019d be here today, how can
+          I help?"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: d89bddab-36f9-419a-8a48-50802a675928
+      InputGuid: 1d79bc70-29b9-4953-9fa9-3e475110bda1
+      OutputGuid: acbcc2dd-6b50-4bbe-b59f-5469bebfaffe
+    - ID:
+        Value: 0
+      PortGuid: 3b924212-f9f9-4b95-92d3-59b9ab7d01da
+      InputGuid: 65c58a6a-3d16-4f4f-b7ad-15a0313807f7
+      OutputGuid: acbcc2dd-6b50-4bbe-b59f-5469bebfaffe
+  - CardGuid: 7b23eacc-deae-4251-998f-c6c1373ff7eb
+    Position: {x: 1500, y: 350.40002}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: Aaron Rees
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 980a44d7-cfa5-4611-8c22-4243039317f8
+      Texts:
+      - Name: 1
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 2
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 3
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 4
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 5
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 6
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 7
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 8
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 9
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      - Name: 10
+        Value: "That thing is\u2026 extremely dangerous. Neronium is highly radioactive
+          and not suitable for any green technology."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: c56f995e-eea2-4a74-9216-3337eef8c048
+      Texts:
+      - Name: 1
+        Value: You and Connie discovered it, right?
+      - Name: 2
+        Value: You and Connie discovered it, right?
+      - Name: 3
+        Value: You and Connie discovered it, right?
+      - Name: 4
+        Value: You and Connie discovered it, right?
+      - Name: 5
+        Value: You and Connie discovered it, right?
+      - Name: 6
+        Value: You and Connie discovered it, right?
+      - Name: 7
+        Value: You and Connie discovered it, right?
+      - Name: 8
+        Value: You and Connie discovered it, right?
+      - Name: 9
+        Value: You and Connie discovered it, right?
+      - Name: 10
+        Value: You and Connie discovered it, right?
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 5
+      GuidID:
+        Value: cebee6d2-0cde-4748-afd0-7e559090857a
+      Texts:
+      - Name: 1
+        Value: Yes, and I regret that.
+      - Name: 2
+        Value: Yes, and I regret that.
+      - Name: 3
+        Value: Yes, and I regret that.
+      - Name: 4
+        Value: Yes, and I regret that.
+      - Name: 5
+        Value: Yes, and I regret that.
+      - Name: 6
+        Value: Yes, and I regret that.
+      - Name: 7
+        Value: Yes, and I regret that.
+      - Name: 8
+        Value: Yes, and I regret that.
+      - Name: 9
+        Value: Yes, and I regret that.
+      - Name: 10
+        Value: Yes, and I regret that.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 7
+      GuidID:
+        Value: 31f6e319-648e-49e9-99a5-41a8a587cd1e
+      Texts:
+      - Name: 1
+        Value: Why?
+      - Name: 2
+        Value: Why?
+      - Name: 3
+        Value: Why?
+      - Name: 4
+        Value: Why?
+      - Name: 5
+        Value: Why?
+      - Name: 6
+        Value: Why?
+      - Name: 7
+        Value: Why?
+      - Name: 8
+        Value: Why?
+      - Name: 9
+        Value: Why?
+      - Name: 10
+        Value: Why?
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 25b4c373-99a1-4ac6-bca0-00d6659bd278
+      Texts:
+      - Name: 1
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 2
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 3
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 4
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 5
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 6
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 7
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 8
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 9
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      - Name: 10
+        Value: "Because it\u2019s dangerous as hell! There is no other metal on Earth
+          as dangerous as Neronium!"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: 9b8e7c12-5aa1-4965-9af1-d57243f44b7a
+      InputGuid: e8f0194f-fb15-437c-83f3-102a2cab796c
+      OutputGuid: 7b23eacc-deae-4251-998f-c6c1373ff7eb
+    - ID:
+        Value: 0
+      PortGuid: 5e8bdb69-c39c-40c6-97e3-685ce7cf6748
+      InputGuid: 0fc90be8-184d-4e4b-9925-652fe2f42c87
+      OutputGuid: 7b23eacc-deae-4251-998f-c6c1373ff7eb
+  - CardGuid: e3126ea5-e3af-42ff-a381-a928df07a482
+    Position: {x: 3250.4, y: 350.40002}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 11
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 13
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: e2e31040-c72f-4dbf-91c7-dc874de6db8f
+      Texts:
+      - Name: 1
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 2
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 3
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 4
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 5
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 6
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 7
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 8
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 9
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      - Name: 10
+        Value: "What?! That\u2019s ridiculous, I did not! Why do you even think that?!"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 0ee135aa-5912-4418-9e3b-79328d1e96bc
+      Texts:
+      - Name: 1
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 2
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 3
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 4
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 5
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 6
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 7
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 8
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 9
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      - Name: 10
+        Value: "I never told you she was dead, and you said that \u201Cat least now
+          she won\u2019t hurt anyone when she\u2019s dead.\u201D"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 0e229919-b1dc-48d4-913a-f5744cda21c2
+      Texts:
+      - Name: 1
+        Value: "I\u2026 I did not\u2026"
+      - Name: 2
+        Value: "I\u2026 I did not\u2026"
+      - Name: 3
+        Value: "I\u2026 I did not\u2026"
+      - Name: 4
+        Value: "I\u2026 I did not\u2026"
+      - Name: 5
+        Value: "I\u2026 I did not\u2026"
+      - Name: 6
+        Value: "I\u2026 I did not\u2026"
+      - Name: 7
+        Value: "I\u2026 I did not\u2026"
+      - Name: 8
+        Value: "I\u2026 I did not\u2026"
+      - Name: 9
+        Value: "I\u2026 I did not\u2026"
+      - Name: 10
+        Value: "I\u2026 I did not\u2026"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 7
+      GuidID:
+        Value: 95187bd3-4a26-4417-a251-70ad973c23cf
+      Texts:
+      - Name: 1
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 2
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 3
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 4
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 5
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 6
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 7
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 8
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 9
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      - Name: 10
+        Value: "You came to visit Connie, as she hadn\u2019t been at work for the
+          last few days."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 8
+      GuidID:
+        Value: 9259fb79-2c7c-4671-964e-e62190ca5874
+      Texts:
+      - Name: 1
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 2
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 3
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 4
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 5
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 6
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 7
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 8
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 9
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      - Name: 10
+        Value: You started talking about Neronium and she showed you magazines and
+          told you about selling it.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 6ea66344-066d-401c-b24d-12aaea30a42a
+      Texts:
+      - Name: 1
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 2
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 3
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 4
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 5
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 6
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 7
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 8
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 9
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      - Name: 10
+        Value: You got upset and vandalized her papers and magazines, then started
+          arguing. And in the heat of the argument, you stabbed her.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 10
+      GuidID:
+        Value: a53aa523-d35b-4c83-85fa-cb6fc047e03c
+      Texts:
+      - Name: 1
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 2
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 3
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 4
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 5
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 6
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 7
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 8
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 9
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      - Name: 10
+        Value: When you realized what you did, you tried to cover it up by stabbing
+          her more times and frame her husband that she was cheating on.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 12
+      GuidID:
+        Value: 480cf7b0-6edd-4e5d-80a1-2de166dabe2b
+      Texts:
+      - Name: 1
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 2
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 3
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 4
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 5
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 6
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 7
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 8
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 9
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      - Name: 10
+        Value: "No\u2026 That\u2019s\u2026 But I cleaned the knife\u2026"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 14
+      GuidID:
+        Value: e9d3f139-83f8-4996-902e-4e3565904cee
+      Texts:
+      - Name: 1
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 2
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 3
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 4
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 5
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 6
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 7
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 8
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 9
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      - Name: 10
+        Value: "Aaron Rees, you\u2019re accused of murdering Connie Matthews. Please
+          cooperate and give me your hands, you\u2019ll go with me."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports: []
+  - CardGuid: db1ce8cd-28cc-4ff6-9a9a-628b3a9dfbb2
+    Position: {x: 2337.6, y: 163.2}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Aaron Rees
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: ecb3ff4f-69b5-4ca4-a867-bab62fe04430
+      Texts:
+      - Name: 1
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 2
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 3
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 4
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 5
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 6
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 7
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 8
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 9
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      - Name: 10
+        Value: "Yes she told me recently! And I tried to stop her, but she didn\u2019t
+          listen."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 2
+      GuidID:
+        Value: 34dfa008-21e6-4d0e-806b-2f122a6a12a1
+      Texts:
+      - Name: 1
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 2
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 3
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 4
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 5
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 6
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 7
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 8
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 9
+        Value: She would destroy all humanity with that stupid idea.
+      - Name: 10
+        Value: She would destroy all humanity with that stupid idea.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 146135ba-397a-4323-beae-33c8526c3ed8
+      Texts:
+      - Name: 1
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 2
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 3
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 4
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 5
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 6
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 7
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 8
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 9
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      - Name: 10
+        Value: She was even collecting scraps of magazines with the interviews, she
+          was so proud of herself.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 8e04388e-6cad-40a6-884b-6ca382c087dc
+      Texts:
+      - Name: 1
+        Value: How did you try to stop her?
+      - Name: 2
+        Value: How did you try to stop her?
+      - Name: 3
+        Value: How did you try to stop her?
+      - Name: 4
+        Value: How did you try to stop her?
+      - Name: 5
+        Value: How did you try to stop her?
+      - Name: 6
+        Value: How did you try to stop her?
+      - Name: 7
+        Value: How did you try to stop her?
+      - Name: 8
+        Value: How did you try to stop her?
+      - Name: 9
+        Value: How did you try to stop her?
+      - Name: 10
+        Value: How did you try to stop her?
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 7
+      GuidID:
+        Value: 53a70912-3376-4aed-a197-28507567c877
+      Texts:
+      - Name: 1
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 2
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 3
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 4
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 5
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 6
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 7
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 8
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 9
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      - Name: 10
+        Value: "By talking to her! But she was so stupid she didn\u2019t listen."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 8
+      GuidID:
+        Value: 956107b5-77f9-44e8-af39-157c0c2c736e
+      Texts:
+      - Name: 1
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 2
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 3
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 4
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 5
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 6
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 7
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 8
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 9
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      - Name: 10
+        Value: "At least now she won\u2019t hurt anyone with this when she\u2019s
+          dead."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports: []
+  - CardGuid: 681d66a4-129c-472b-a386-8c545954656a
+    Position: {x: 2656, y: 658.4}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Aaron Rees
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: e77bbed3-20b8-4550-b429-811e3559c7b6
+      Texts:
+      - Name: 1
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 2
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 3
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 4
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 5
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 6
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 7
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 8
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 9
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      - Name: 10
+        Value: "They did? Oh, heh, I went in for a cup of coffee, that\u2019s right."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: a8338cb7-8bd7-4f54-8ff0-c68011e5a360
+      Texts:
+      - Name: 1
+        Value: And you had an argument.
+      - Name: 2
+        Value: And you had an argument.
+      - Name: 3
+        Value: And you had an argument.
+      - Name: 4
+        Value: And you had an argument.
+      - Name: 5
+        Value: And you had an argument.
+      - Name: 6
+        Value: And you had an argument.
+      - Name: 7
+        Value: And you had an argument.
+      - Name: 8
+        Value: And you had an argument.
+      - Name: 9
+        Value: And you had an argument.
+      - Name: 10
+        Value: And you had an argument.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 1472c7a4-ddba-42fc-a4ce-d9b4662ab9b6
+      Texts:
+      - Name: 1
+        Value: W-what? No.
+      - Name: 2
+        Value: W-what? No.
+      - Name: 3
+        Value: W-what? No.
+      - Name: 4
+        Value: W-what? No.
+      - Name: 5
+        Value: W-what? No.
+      - Name: 6
+        Value: W-what? No.
+      - Name: 7
+        Value: W-what? No.
+      - Name: 8
+        Value: W-what? No.
+      - Name: 9
+        Value: W-what? No.
+      - Name: 10
+        Value: W-what? No.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: d45c9030-6b2d-4239-ae92-f22203b5d5af
+      InputGuid: ecc9561a-0997-4d00-ac15-1ba63d71ad3a
+      OutputGuid: 681d66a4-129c-472b-a386-8c545954656a
+  - CardGuid: 666711eb-7a50-48b8-aef0-06ebe7e0aebe
+    Position: {x: 1100, y: 286.40002}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aaron Rees
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Aaron Rees
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 1c529a7d-d5f6-41e1-8336-6fdd96cf718f
+      Texts:
+      - Name: 1
+        Value: Oh um, I think yesterday.
+      - Name: 2
+        Value: Oh um, I think yesterday.
+      - Name: 3
+        Value: Oh um, I think yesterday.
+      - Name: 4
+        Value: Oh um, I think yesterday.
+      - Name: 5
+        Value: Oh um, I think yesterday.
+      - Name: 6
+        Value: Oh um, I think yesterday.
+      - Name: 7
+        Value: Oh um, I think yesterday.
+      - Name: 8
+        Value: Oh um, I think yesterday.
+      - Name: 9
+        Value: Oh um, I think yesterday.
+      - Name: 10
+        Value: Oh um, I think yesterday.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 73f7349b-ff82-45b0-b81a-599d32b7cb8d
+      Texts:
+      - Name: 1
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 2
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 3
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 4
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 5
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 6
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 7
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 8
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 9
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      - Name: 10
+        Value: "Hmm\u2026 I see. What were you doing with her yesterday?"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 1fc3918c-c7fc-4166-907d-441f1beb0fc5
+      Texts:
+      - Name: 1
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 2
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 3
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 4
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 5
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 6
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 7
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 8
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 9
+        Value: I walked her home from work. Nothing special, I live on the way.
+      - Name: 10
+        Value: I walked her home from work. Nothing special, I live on the way.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports: []
+  ChoiceDatas:
+  - CardGuid: 1d79bc70-29b9-4953-9fa9-3e475110bda1
+    Position: {x: 800, y: 350.40002}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: When was the last time you saw Connie?
+    - Name: 2
+      Value: When was the last time you saw Connie?
+    - Name: 3
+      Value: When was the last time you saw Connie?
+    - Name: 4
+      Value: When was the last time you saw Connie?
+    - Name: 5
+      Value: When was the last time you saw Connie?
+    - Name: 6
+      Value: When was the last time you saw Connie?
+    - Name: 7
+      Value: When was the last time you saw Connie?
+    - Name: 8
+      Value: When was the last time you saw Connie?
+    - Name: 9
+      Value: When was the last time you saw Connie?
+    - Name: 10
+      Value: When was the last time you saw Connie?
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: 65c58a6a-3d16-4f4f-b7ad-15a0313807f7
+    Position: {x: 800, y: 500}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Can you tell me more about Neronium?
+    - Name: 2
+      Value: Can you tell me more about Neronium?
+    - Name: 3
+      Value: Can you tell me more about Neronium?
+    - Name: 4
+      Value: Can you tell me more about Neronium?
+    - Name: 5
+      Value: Can you tell me more about Neronium?
+    - Name: 6
+      Value: Can you tell me more about Neronium?
+    - Name: 7
+      Value: Can you tell me more about Neronium?
+    - Name: 8
+      Value: Can you tell me more about Neronium?
+    - Name: 9
+      Value: Can you tell me more about Neronium?
+    - Name: 10
+      Value: Can you tell me more about Neronium?
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: e8f0194f-fb15-437c-83f3-102a2cab796c
+    Position: {x: 1850.4, y: 350.40002}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 2
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 3
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 4
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 5
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 6
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 7
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 8
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 9
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    - Name: 10
+      Value: Did you know that Connie wanted to sell it to produce green energy?
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: ecc9561a-0997-4d00-ac15-1ba63d71ad3a
+    Position: {x: 2971.2, y: 542.4}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: You killed Connie Matthews.
+    - Name: 2
+      Value: You killed Connie Matthews.
+    - Name: 3
+      Value: You killed Connie Matthews.
+    - Name: 4
+      Value: You killed Connie Matthews.
+    - Name: 5
+      Value: You killed Connie Matthews.
+    - Name: 6
+      Value: You killed Connie Matthews.
+    - Name: 7
+      Value: You killed Connie Matthews.
+    - Name: 8
+      Value: You killed Connie Matthews.
+    - Name: 9
+      Value: You killed Connie Matthews.
+    - Name: 10
+      Value: You killed Connie Matthews.
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: 0fc90be8-184d-4e4b-9925-652fe2f42c87
+    Position: {x: 1829.6, y: 658.4}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 2
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 3
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 4
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 5
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 6
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 7
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 8
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 9
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    - Name: 10
+      Value: The neighbors told me they saw you at her place yesterday, can you explain
+        that?
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 28dfbb34-4052-45f0-a8dd-67cd37fbe777
+    Position: {x: 3600, y: 250.40001}
+    EndState:
+      Value: 1
+  - CardGuid: dccdcf8e-6d74-4265-bda7-38e7b6eaa7fc
+    Position: {x: 2737.6, y: 116}
+    EndState:
+      Value: 3
+  - CardGuid: f90bc118-d0d6-4a6d-8a52-ed596cbcd946
+    Position: {x: 1484.8, y: 216.8}
+    EndState:
+      Value: 3

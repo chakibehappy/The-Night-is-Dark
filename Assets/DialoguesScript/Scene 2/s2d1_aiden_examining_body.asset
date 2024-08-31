@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d1_aiden_examining_body
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 33f2d5a2-6afc-4292-ac0a-a341652f7a6b
+    BasePortName: Output
+    TargetCardGuid: f5239b7a-c7a2-4e99-ba44-b6dab9b835c3
+    TargetPortName: Input
+  - BaseCardGuid: f5239b7a-c7a2-4e99-ba44-b6dab9b835c3
+    BasePortName: Continue
+    TargetCardGuid: ec66089e-2d23-4df2-8ccc-6d1b68f0f840
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 33f2d5a2-6afc-4292-ac0a-a341652f7a6b
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: f5239b7a-c7a2-4e99-ba44-b6dab9b835c3
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 5762b2e3-a80e-4a61-9a45-4236947968a5
+      Texts:
+      - Name: 1
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 2
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 3
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 4
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 5
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 6
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 7
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 8
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 9
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      - Name: 10
+        Value: God damn it. So many years in the field and this sight still shocks
+          me.
+      AudioClips: []
+    - ID:
+        Value: 2
+      GuidID:
+        Value: dfdf659d-d311-45ab-b7fc-baa1d6e87c8d
+      Texts:
+      - Name: 1
+        Value: I should take a blood sample for the lab guys.
+      - Name: 2
+        Value: I should take a blood sample for the lab guys.
+      - Name: 3
+        Value: I should take a blood sample for the lab guys.
+      - Name: 4
+        Value: I should take a blood sample for the lab guys.
+      - Name: 5
+        Value: I should take a blood sample for the lab guys.
+      - Name: 6
+        Value: I should take a blood sample for the lab guys.
+      - Name: 7
+        Value: I should take a blood sample for the lab guys.
+      - Name: 8
+        Value: I should take a blood sample for the lab guys.
+      - Name: 9
+        Value: I should take a blood sample for the lab guys.
+      - Name: 10
+        Value: I should take a blood sample for the lab guys.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: ec66089e-2d23-4df2-8ccc-6d1b68f0f840
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

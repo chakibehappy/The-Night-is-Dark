@@ -1,0 +1,30 @@
+The boss: Hello sir! You didn’t have a meeting scheduled, right? 
+Aiden Hayes: Hello. I’m Detective Aiden Hayes from the Police Department. 
+We want to ask a few questions about one of your employees - Connie Matthews. 
+The boss: Alright, how can I help?
+
+--open choice
+1-- What was Connie working on? 
+2-- When was the last time you saw Connie?
+3-- Thank you for the information.
+--close choice
+
+--continue choice 1
+The boss: She was working on this new metal, Neronium. Highly revolutionary resource, it will change the world for good!
+Aiden Hayes: Did she work alone on that project?
+The boss: No, she was working with Aaron Rees, another geologist. 
+They even were interviewed multiple times! Our company is on tongues of many ecological companies.
+Aiden Hayes: Can I talk to him?
+The boss: Oh he’s not working today, you can come tomorrow.
+--goto back
+
+--continue choice 2
+The boss: Two days ago. She needed some time off as she and her husband separated.
+Aiden Hayes: Do you know the reason?
+The boss: People gossip she had an affair, but I don’t know, not my business, you know? I’m focusing on their productivity, not their private life.
+--goto back
+
+--continue choice 3
+The boss: Of course. Can I ask what happened exactly?
+Aiden Hayes: That’s confidential for now. Goodbye.
+--goto end

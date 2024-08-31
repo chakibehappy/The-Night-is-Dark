@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s4d3_after_phone_call
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 0540a196-ada8-4907-ae0b-b3a91ce67f40
+    BasePortName: Output
+    TargetCardGuid: 6d9e6e73-3112-4c5e-a518-e237b73d18e0
+    TargetPortName: Input
+  - BaseCardGuid: 6d9e6e73-3112-4c5e-a518-e237b73d18e0
+    BasePortName: Continue
+    TargetCardGuid: bd30bbb9-6de5-4f86-adf0-876c49628b99
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 0540a196-ada8-4907-ae0b-b3a91ce67f40
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 6d9e6e73-3112-4c5e-a518-e237b73d18e0
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 08a0b895-fbbe-4984-900f-a16e12c1c3b8
+      Texts:
+      - Name: 1
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 2
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 3
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 4
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 5
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 6
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 7
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 8
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 9
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      - Name: 10
+        Value: "We\u2019re missing something. I need to go to the victim\u2019s apartment
+          again."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: bd30bbb9-6de5-4f86-adf0-876c49628b99
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

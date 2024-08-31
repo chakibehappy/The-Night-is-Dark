@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d8_aiden_seeing_wedding_picture
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 4d36dd75-2596-4f95-90dc-72a2adfca935
+    BasePortName: Output
+    TargetCardGuid: 6ad026be-bdaf-4276-ac8a-9076e3c3dd7e
+    TargetPortName: Input
+  - BaseCardGuid: 6ad026be-bdaf-4276-ac8a-9076e3c3dd7e
+    BasePortName: Continue
+    TargetCardGuid: 8659c18d-b8fc-4144-9971-bcc88cbfc10b
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 4d36dd75-2596-4f95-90dc-72a2adfca935
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 6ad026be-bdaf-4276-ac8a-9076e3c3dd7e
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: ef99757e-8c69-4a07-a9e7-c146cb2bc3a1
+      Texts:
+      - Name: 1
+        Value: "Happily married and all that\u2026"
+      - Name: 2
+        Value: "Happily married and all that\u2026"
+      - Name: 3
+        Value: "Happily married and all that\u2026"
+      - Name: 4
+        Value: "Happily married and all that\u2026"
+      - Name: 5
+        Value: "Happily married and all that\u2026"
+      - Name: 6
+        Value: "Happily married and all that\u2026"
+      - Name: 7
+        Value: "Happily married and all that\u2026"
+      - Name: 8
+        Value: "Happily married and all that\u2026"
+      - Name: 9
+        Value: "Happily married and all that\u2026"
+      - Name: 10
+        Value: "Happily married and all that\u2026"
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 8659c18d-b8fc-4144-9971-bcc88cbfc10b
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

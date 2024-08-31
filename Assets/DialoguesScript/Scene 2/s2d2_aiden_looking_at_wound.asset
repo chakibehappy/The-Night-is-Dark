@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d2_aiden_looking_at_wound
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 28ad0372-1cac-4027-8aa4-c56c612589b1
+    BasePortName: Output
+    TargetCardGuid: fdd2ad51-eb28-4af8-8a7a-71142860d7a4
+    TargetPortName: Input
+  - BaseCardGuid: fdd2ad51-eb28-4af8-8a7a-71142860d7a4
+    BasePortName: Continue
+    TargetCardGuid: 01805fcc-ef2c-4a75-9db7-821b467afe07
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 28ad0372-1cac-4027-8aa4-c56c612589b1
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: fdd2ad51-eb28-4af8-8a7a-71142860d7a4
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 1813e802-8d1d-451c-82af-0f732539be82
+      Texts:
+      - Name: 1
+        Value: Hmm, 16 of them.
+      - Name: 2
+        Value: Hmm, 16 of them.
+      - Name: 3
+        Value: Hmm, 16 of them.
+      - Name: 4
+        Value: Hmm, 16 of them.
+      - Name: 5
+        Value: Hmm, 16 of them.
+      - Name: 6
+        Value: Hmm, 16 of them.
+      - Name: 7
+        Value: Hmm, 16 of them.
+      - Name: 8
+        Value: Hmm, 16 of them.
+      - Name: 9
+        Value: Hmm, 16 of them.
+      - Name: 10
+        Value: Hmm, 16 of them.
+      AudioClips: []
+    - ID:
+        Value: 2
+      GuidID:
+        Value: 2989c5d4-da83-447d-99f5-0f7c04671eda
+      Texts:
+      - Name: 1
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 2
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 3
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 4
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 5
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 6
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 7
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 8
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 9
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      - Name: 10
+        Value: At first glance, it looks like she was stabbed in the heat of an argument
+          or with lots of hate.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 01805fcc-ef2c-4a75-9db7-821b467afe07
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s4d2_phone_call
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 25d9aaca-b0f8-4aef-9160-d9a563f13a8f
+    BasePortName: Output
+    TargetCardGuid: 6f7c0d3b-c1e2-4a55-adbb-8cd5f0acffce
+    TargetPortName: Input
+  - BaseCardGuid: 6f7c0d3b-c1e2-4a55-adbb-8cd5f0acffce
+    BasePortName: Continue
+    TargetCardGuid: 7da54473-aa66-4bd0-8b1a-d63c37d92e06
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 25d9aaca-b0f8-4aef-9160-d9a563f13a8f
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 6f7c0d3b-c1e2-4a55-adbb-8cd5f0acffce
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 3
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 5
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 4d0b20c9-e669-43f9-bf68-25af9f8188ca
+      Texts:
+      - Name: 1
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 2
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 3
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 4
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 5
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 6
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 7
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 8
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 9
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      - Name: 10
+        Value: Hey, just wanted to tell you that the husband is clear. He moved out
+          a few days ago after discovering she was cheating.
+      AudioClips: []
+    - ID:
+        Value: 2
+      GuidID:
+        Value: 8c83af45-9dbb-47af-8e43-8a053b32d886
+      Texts:
+      - Name: 1
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 2
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 3
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 4
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 5
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 6
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 7
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 8
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 9
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      - Name: 10
+        Value: "Since then he\u2019s been at his mother\u2019s place. He has an alibi
+          at the time of the murder, he was with friends at the bar."
+      AudioClips: []
+    - ID:
+        Value: 4
+      GuidID:
+        Value: 53da5ba9-e5cb-4dcd-9f7d-783f6c07a7fe
+      Texts:
+      - Name: 1
+        Value: Hey, thanks a lot.
+      - Name: 2
+        Value: Hey, thanks a lot.
+      - Name: 3
+        Value: Hey, thanks a lot.
+      - Name: 4
+        Value: Hey, thanks a lot.
+      - Name: 5
+        Value: Hey, thanks a lot.
+      - Name: 6
+        Value: Hey, thanks a lot.
+      - Name: 7
+        Value: Hey, thanks a lot.
+      - Name: 8
+        Value: Hey, thanks a lot.
+      - Name: 9
+        Value: Hey, thanks a lot.
+      - Name: 10
+        Value: Hey, thanks a lot.
+      AudioClips: []
+    - ID:
+        Value: 6
+      GuidID:
+        Value: 1a146e37-e75f-4fe1-8b20-e4040fb0727f
+      Texts:
+      - Name: 1
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 2
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 3
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 4
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 5
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 6
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 7
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 8
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 9
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      - Name: 10
+        Value: Oh also! The autopsy showed that the victim died because of one wound.
+      AudioClips: []
+    - ID:
+        Value: 7
+      GuidID:
+        Value: b5b89851-0dc0-4712-b12b-e4c1e06d6394
+      Texts:
+      - Name: 1
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 2
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 3
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 4
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 5
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 6
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 7
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 8
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 9
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      - Name: 10
+        Value: "The rest was done after she died. It wasn\u2019t hateful stabbing,
+          it looked more like a cover-up."
+      AudioClips: []
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 9d480baa-096a-476f-9434-6d12a6165627
+      Texts:
+      - Name: 1
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 2
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 3
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 4
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 5
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 6
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 7
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 8
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 9
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      - Name: 10
+        Value: "That\u2019s interesting, thank you. Talk to you later."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 7da54473-aa66-4bd0-8b1a-d63c37d92e06
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d4_aiden_examining_hand_and_arms
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 131ef93b-2629-494e-a943-f01797ffb385
+    BasePortName: Output
+    TargetCardGuid: d364effb-c4b1-40a1-a08f-1f91ca06f013
+    TargetPortName: Input
+  - BaseCardGuid: d364effb-c4b1-40a1-a08f-1f91ca06f013
+    BasePortName: Continue
+    TargetCardGuid: 001efff5-b7f6-4bf4-87ab-1e777d3d77ea
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 131ef93b-2629-494e-a943-f01797ffb385
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: d364effb-c4b1-40a1-a08f-1f91ca06f013
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 39d7e4d8-ea44-4e39-b529-2c5601566076
+      Texts:
+      - Name: 1
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 2
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 3
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 4
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 5
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 6
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 7
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 8
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 9
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      - Name: 10
+        Value: No bruises, scratches, or signs of a fight. She was either attacked
+          by surprise or felt safe with the killer.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 001efff5-b7f6-4bf4-87ab-1e777d3d77ea
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

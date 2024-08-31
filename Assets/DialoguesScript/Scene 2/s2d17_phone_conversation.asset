@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d17_phone_conversation
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: b01607a8-2c07-43c5-bca6-178dc119f1e0
+    BasePortName: Output
+    TargetCardGuid: ca7ec6af-f492-4171-9045-3b497ed9a1cf
+    TargetPortName: Input
+  - BaseCardGuid: ca7ec6af-f492-4171-9045-3b497ed9a1cf
+    BasePortName: Continue
+    TargetCardGuid: 32dcc04c-0b33-4320-9225-dfec8e0b1883
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: b01607a8-2c07-43c5-bca6-178dc119f1e0
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: ca7ec6af-f492-4171-9045-3b497ed9a1cf
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 10
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 12
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 14
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 16
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 18
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 20
+      CharacterName:
+        Value: The dispatcher
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 96dca6c3-22a4-4cce-96e0-1ddee86e7e08
+      Texts:
+      - Name: 1
+        Value: Hello Aiden, any news about the murder?
+      - Name: 2
+        Value: Hello Aiden, any news about the murder?
+      - Name: 3
+        Value: Hello Aiden, any news about the murder?
+      - Name: 4
+        Value: Hello Aiden, any news about the murder?
+      - Name: 5
+        Value: Hello Aiden, any news about the murder?
+      - Name: 6
+        Value: Hello Aiden, any news about the murder?
+      - Name: 7
+        Value: Hello Aiden, any news about the murder?
+      - Name: 8
+        Value: Hello Aiden, any news about the murder?
+      - Name: 9
+        Value: Hello Aiden, any news about the murder?
+      - Name: 10
+        Value: Hello Aiden, any news about the murder?
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: b4cd16d3-d0a5-432f-a3f0-48dbe36aebdf
+      Texts:
+      - Name: 1
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 2
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 3
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 4
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 5
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 6
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 7
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 8
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 9
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      - Name: 10
+        Value: "Hey, yes. I found the murder weapon, it\u2019s a knife, but no fingerprints.
+          I collected blood samples for the lab, so I\u2019ll pass them on when I\u2019m
+          back. Looks like the victim had an affair with a man called Leonard. Can
+          you check that for me?"
+      AudioClips: []
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 7f79785e-b7ee-4244-a5b8-0e4ae0d0753c
+      Texts:
+      - Name: 1
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 2
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 3
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 4
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 5
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 6
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 7
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 8
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 9
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      - Name: 10
+        Value: "Sure, we already interrogate the husband, Tyler Matthews. Of course,
+          he says he didn\u2019t do it."
+      AudioClips: []
+    - ID:
+        Value: 7
+      GuidID:
+        Value: 01d68624-b910-4cb3-a15f-89209d9eba9b
+      Texts:
+      - Name: 1
+        Value: "What\u2019s his alibi?"
+      - Name: 2
+        Value: "What\u2019s his alibi?"
+      - Name: 3
+        Value: "What\u2019s his alibi?"
+      - Name: 4
+        Value: "What\u2019s his alibi?"
+      - Name: 5
+        Value: "What\u2019s his alibi?"
+      - Name: 6
+        Value: "What\u2019s his alibi?"
+      - Name: 7
+        Value: "What\u2019s his alibi?"
+      - Name: 8
+        Value: "What\u2019s his alibi?"
+      - Name: 9
+        Value: "What\u2019s his alibi?"
+      - Name: 10
+        Value: "What\u2019s his alibi?"
+      AudioClips: []
+    - ID:
+        Value: 9
+      GuidID:
+        Value: d5d0c3b7-ad3b-4107-afaf-5ed452a35e32
+      Texts:
+      - Name: 1
+        Value: "He was at his mother\u2019s house."
+      - Name: 2
+        Value: "He was at his mother\u2019s house."
+      - Name: 3
+        Value: "He was at his mother\u2019s house."
+      - Name: 4
+        Value: "He was at his mother\u2019s house."
+      - Name: 5
+        Value: "He was at his mother\u2019s house."
+      - Name: 6
+        Value: "He was at his mother\u2019s house."
+      - Name: 7
+        Value: "He was at his mother\u2019s house."
+      - Name: 8
+        Value: "He was at his mother\u2019s house."
+      - Name: 9
+        Value: "He was at his mother\u2019s house."
+      - Name: 10
+        Value: "He was at his mother\u2019s house."
+      AudioClips: []
+    - ID:
+        Value: 11
+      GuidID:
+        Value: fac6cba2-820e-42fb-90f6-1ac8d5d8846d
+      Texts:
+      - Name: 1
+        Value: "I see. Check if it\u2019s true."
+      - Name: 2
+        Value: "I see. Check if it\u2019s true."
+      - Name: 3
+        Value: "I see. Check if it\u2019s true."
+      - Name: 4
+        Value: "I see. Check if it\u2019s true."
+      - Name: 5
+        Value: "I see. Check if it\u2019s true."
+      - Name: 6
+        Value: "I see. Check if it\u2019s true."
+      - Name: 7
+        Value: "I see. Check if it\u2019s true."
+      - Name: 8
+        Value: "I see. Check if it\u2019s true."
+      - Name: 9
+        Value: "I see. Check if it\u2019s true."
+      - Name: 10
+        Value: "I see. Check if it\u2019s true."
+      AudioClips: []
+    - ID:
+        Value: 13
+      GuidID:
+        Value: 97b7ca83-07eb-4d57-8b81-ede1c487a3d2
+      Texts:
+      - Name: 1
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 2
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 3
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 4
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 5
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 6
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 7
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 8
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 9
+        Value: Already on it. Did you find anything more about the victim?
+      - Name: 10
+        Value: Already on it. Did you find anything more about the victim?
+      AudioClips: []
+    - ID:
+        Value: 15
+      GuidID:
+        Value: 1e836fd6-0451-473f-b06a-8a3af35d6b9e
+      Texts:
+      - Name: 1
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 2
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 3
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 4
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 5
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 6
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 7
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 8
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 9
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      - Name: 10
+        Value: "Ah yea, she was working for a company named \u201CEcoTech Engineering
+          Solutions\u201D. Can you check the address and send it to me?"
+      AudioClips: []
+    - ID:
+        Value: 17
+      GuidID:
+        Value: 5f5f0158-fdc7-444e-a64e-371749d3063d
+      Texts:
+      - Name: 1
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 2
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 3
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 4
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 5
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 6
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 7
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 8
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 9
+        Value: Alright, no problem. Is that all Aiden?
+      - Name: 10
+        Value: Alright, no problem. Is that all Aiden?
+      AudioClips: []
+    - ID:
+        Value: 19
+      GuidID:
+        Value: a015964d-fdcf-4244-8c51-1ed7ec4970ed
+      Texts:
+      - Name: 1
+        Value: Yeah, call me when you find the lover.
+      - Name: 2
+        Value: Yeah, call me when you find the lover.
+      - Name: 3
+        Value: Yeah, call me when you find the lover.
+      - Name: 4
+        Value: Yeah, call me when you find the lover.
+      - Name: 5
+        Value: Yeah, call me when you find the lover.
+      - Name: 6
+        Value: Yeah, call me when you find the lover.
+      - Name: 7
+        Value: Yeah, call me when you find the lover.
+      - Name: 8
+        Value: Yeah, call me when you find the lover.
+      - Name: 9
+        Value: Yeah, call me when you find the lover.
+      - Name: 10
+        Value: Yeah, call me when you find the lover.
+      AudioClips: []
+    - ID:
+        Value: 21
+      GuidID:
+        Value: ecf7ebcd-2a87-4728-aed6-0ae5b2beb8cd
+      Texts:
+      - Name: 1
+        Value: Sure, talk to you later.
+      - Name: 2
+        Value: Sure, talk to you later.
+      - Name: 3
+        Value: Sure, talk to you later.
+      - Name: 4
+        Value: Sure, talk to you later.
+      - Name: 5
+        Value: Sure, talk to you later.
+      - Name: 6
+        Value: Sure, talk to you later.
+      - Name: 7
+        Value: Sure, talk to you later.
+      - Name: 8
+        Value: Sure, talk to you later.
+      - Name: 9
+        Value: Sure, talk to you later.
+      - Name: 10
+        Value: Sure, talk to you later.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 32dcc04c-0b33-4320-9225-dfec8e0b1883
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

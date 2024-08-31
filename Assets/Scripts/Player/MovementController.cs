@@ -36,6 +36,9 @@ public class MovementController : MonoBehaviour
     GameObject clickedObject = null;
     GameBoard activeDialogueBoard = null;
 
+    [Header("Player Model")]
+    public Animator animator;
+
     void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -56,8 +59,17 @@ public class MovementController : MonoBehaviour
         if (GM == null)
             return;
 
+        if (GM.cameraIsChange && agent.velocity == Vector3.zero)
+        {
+            animator.speed = 0;
+        }
+
         if (GM.canMove && !GM.cameraIsChange)
         {
+            if(animator.speed == 0)
+            {
+                animator.speed = 1;
+            }
             MovementByAxis();
             FaceTarget();
         }
@@ -66,6 +78,15 @@ public class MovementController : MonoBehaviour
     void AssignInputs()
     {
         input.Player.PointAndClick.performed += ctx => PointAndClick();
+        input.UI.Submit.performed += ctx => OnButtonSubmit();
+    }
+
+    void OnButtonSubmit()
+    {
+        if (activeNPC != null && GM != null)
+        {
+            ShowDialogue();
+        }
     }
 
     void PointAndClick()
@@ -195,11 +216,11 @@ public class MovementController : MonoBehaviour
 
             Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
-            //animator.SetFloat("move", 1);
+            animator.SetFloat("move", 1);
         }
         else
         {
-            //animator.SetFloat("move", 0);
+            animator.SetFloat("move", agent.velocity == Vector3.zero ? 0 : 1);
         }
     }
 

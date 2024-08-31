@@ -1,0 +1,55 @@
+Aiden Hayes: Hello sir, I’m Detective Aiden Hayes. I want to ask you a few questions about your coworker, Connie Matthews.
+Aaron Rees: Ah yes, hello. My boss told me you’d be here today, how can I help?
+
+--open choice
+1-- When was the last time you saw Connie?
+2-- Can you tell me more about Neronium?
+--close choice
+
+--continue choice 1
+Aaron Rees: Oh um, I think yesterday. 
+Aiden Hayes: Hmm… I see. What were you doing with her yesterday?
+Aaron Rees: I walked her home from work. Nothing special, I live on the way.
+--goto back
+
+--continue choice 2
+Aaron Rees: That thing is… extremely dangerous. Neronium is highly radioactive and not suitable for any green technology.
+Aiden Hayes: You and Connie discovered it, right?
+Aaron Rees: Yes, and I regret that.
+Aiden Hayes: Why?
+Aaron Rees: Because it’s dangerous as hell! There is no other metal on Earth as dangerous as Neronium!
+
+--open choice
+4-- Did you know that Connie wanted to sell it to produce green energy?
+5-- The neighbors told me they saw you at her place yesterday, can you explain that?
+--close choice
+
+--continue choice 4
+Aaron Rees: Yes she told me recently! And I tried to stop her, but she didn’t listen.
+She would destroy all humanity with that stupid idea. 
+She was even collecting scraps of magazines with the interviews, she was so proud of herself.
+Aiden Hayes: How did you try to stop her?
+Aaron Rees: By talking to her! But she was so stupid she didn’t listen. 
+At least now she won’t hurt anyone with this when she’s dead.
+--goto back
+
+--continue choice 5
+Aaron Rees: They did? Oh, heh, I went in for a cup of coffee, that’s right.
+Aiden Hayes: And you had an argument.
+Aaron Rees: W-what? No.
+
+--open choice
+6-- You killed Connie Matthews.
+--close choice
+
+--continue choice 6
+Aaron Rees: What?! That’s ridiculous, I did not! Why do you even think that?!
+Aiden Hayes: I never told you she was dead, and you said that “at least now she won’t hurt anyone when she’s dead.”
+Aaron Rees: I… I did not…
+Aiden Hayes: You came to visit Connie, as she hadn’t been at work for the last few days.
+You started talking about Neronium and she showed you magazines and told you about selling it.
+You got upset and vandalized her papers and magazines, then started arguing. And in the heat of the argument, you stabbed her.
+When you realized what you did, you tried to cover it up by stabbing her more times and frame her husband that she was cheating on. 
+Aaron Rees: No… That’s… But I cleaned the knife…
+Aiden Hayes: Aaron Rees, you’re accused of murdering Connie Matthews. Please cooperate and give me your hands, you’ll go with me.
+--goto end

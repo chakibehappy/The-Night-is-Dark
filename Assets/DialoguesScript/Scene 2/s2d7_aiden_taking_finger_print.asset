@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d7_aiden_taking_finger_print
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 414f61df-809c-4f9f-bafd-deb29341c065
+    BasePortName: Output
+    TargetCardGuid: 5a745096-848d-46f0-ab0b-f5938f97f25d
+    TargetPortName: Input
+  - BaseCardGuid: 5a745096-848d-46f0-ab0b-f5938f97f25d
+    BasePortName: Continue
+    TargetCardGuid: 72a6bb09-5c5f-45a3-8de8-62327381bb84
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 414f61df-809c-4f9f-bafd-deb29341c065
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 5a745096-848d-46f0-ab0b-f5938f97f25d
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 7924b49b-45ee-4e27-b836-0522094ddd9e
+      Texts:
+      - Name: 1
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 2
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 3
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 4
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 5
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 6
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 7
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 8
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 9
+        Value: "Hm\u2026 It\u2019s clean."
+      - Name: 10
+        Value: "Hm\u2026 It\u2019s clean."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 72a6bb09-5c5f-45a3-8de8-62327381bb84
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

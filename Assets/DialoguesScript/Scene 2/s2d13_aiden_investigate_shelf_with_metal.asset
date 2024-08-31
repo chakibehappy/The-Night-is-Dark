@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d13_aiden_investigate_shelf_with_metal
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: b3cdc2d2-a80c-4093-b2ae-a49d124491df
+    BasePortName: Output
+    TargetCardGuid: 2cf610a4-62c9-4da2-8f66-27db809663e7
+    TargetPortName: Input
+  - BaseCardGuid: 2cf610a4-62c9-4da2-8f66-27db809663e7
+    BasePortName: Continue
+    TargetCardGuid: 390d0faa-33fc-43f9-8b8b-cbcfdf74ded4
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: b3cdc2d2-a80c-4093-b2ae-a49d124491df
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 2cf610a4-62c9-4da2-8f66-27db809663e7
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: bfd38507-609f-410d-8567-dccae391faab
+      Texts:
+      - Name: 1
+        Value: Some dirt and rocks.
+      - Name: 2
+        Value: Some dirt and rocks.
+      - Name: 3
+        Value: Some dirt and rocks.
+      - Name: 4
+        Value: Some dirt and rocks.
+      - Name: 5
+        Value: Some dirt and rocks.
+      - Name: 6
+        Value: Some dirt and rocks.
+      - Name: 7
+        Value: Some dirt and rocks.
+      - Name: 8
+        Value: Some dirt and rocks.
+      - Name: 9
+        Value: Some dirt and rocks.
+      - Name: 10
+        Value: Some dirt and rocks.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 390d0faa-33fc-43f9-8b8b-cbcfdf74ded4
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

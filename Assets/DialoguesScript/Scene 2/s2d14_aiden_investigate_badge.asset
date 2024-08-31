@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d14_aiden_investigate_badge
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 78e97297-681f-4c82-b3ea-de2c560fdef4
+    BasePortName: Output
+    TargetCardGuid: bb39d30d-de96-4732-97c4-cb6ace5a27f4
+    TargetPortName: Input
+  - BaseCardGuid: bb39d30d-de96-4732-97c4-cb6ace5a27f4
+    BasePortName: Continue
+    TargetCardGuid: 2e01f29e-589f-493e-b4af-4e5d71207ac1
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 78e97297-681f-4c82-b3ea-de2c560fdef4
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: bb39d30d-de96-4732-97c4-cb6ace5a27f4
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 4e7e81e6-d05c-4c63-88af-13fbb95daf2a
+      Texts:
+      - Name: 1
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 2
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 3
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 4
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 5
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 6
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 7
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 8
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 9
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      - Name: 10
+        Value: Her badge. She was a geologist at EcoTech Engineering Solutions. That
+          explains all the earthy samples in the office.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 2e01f29e-589f-493e-b4af-4e5d71207ac1
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

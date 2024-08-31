@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d6_aiden_taking_blood_sample
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 54a3abd9-aa8f-480a-8aaa-5e254a996952
+    BasePortName: Output
+    TargetCardGuid: ee34d82b-ae2b-4c52-b9fa-4e775d54fc27
+    TargetPortName: Input
+  - BaseCardGuid: ee34d82b-ae2b-4c52-b9fa-4e775d54fc27
+    BasePortName: Continue
+    TargetCardGuid: d1ed9aed-e4f5-4d12-8aff-df635f19605f
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 54a3abd9-aa8f-480a-8aaa-5e254a996952
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: ee34d82b-ae2b-4c52-b9fa-4e775d54fc27
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: f5594b2a-a479-44b9-930e-e7465566525f
+      Texts:
+      - Name: 1
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 2
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 3
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 4
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 5
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 6
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 7
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 8
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 9
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      - Name: 10
+        Value: Time for blood samples again. And I should check for the fingerprints.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: d1ed9aed-e4f5-4d12-8aff-df635f19605f
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

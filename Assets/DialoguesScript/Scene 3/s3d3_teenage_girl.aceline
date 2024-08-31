@@ -1,0 +1,33 @@
+Aiden Hayes: Hello, I’m Detective Aiden Hayes, I’m investigating the case of your neighbor from apartment 6.
+Teenage girl: On my god, is she dead? 
+
+--open choice
+1-- Are your parents home?
+2-- Have you seen anything uncommon or suspicious recently?
+3-- When was the last time you saw Connie Matthews?
+4-- Thank you for the information.
+--close choice
+
+--continue choice 1
+Teenage girl: Naaah, they’re at work as always. I spend most of the time at home though.
+--goto back
+
+--continue choice 2
+Teenage girl: No, not really. But I heard some noises from the apartment today, I was going to grab some snacks. 
+Then when I came home I heard someone leaving, powerwalking in the hallway. 
+Aiden Hayes: Did you see who that was? 
+Teenage girl: Nah, I was already at home and I’m not gonna snoop on my neighbors through the peephole.
+--goto back
+
+--continue choice 3
+Teenage girl: Ughhh, I don’t know. Like a few days ago? She was with this other man.
+Aiden Hayes: You mean Leonard?
+Teenage girl: I don’t know his name, maybe. Not her husband though. 
+--goto back
+
+--continue choice 4
+Teenage girl: Okay, no probs, sir! 
+Aiden Hayes: Here’s my business card. If you or your parents will have anything more to add, call me.
+Teenage girl: Sure thing, bye!
+Aiden Hayes: Thank you, goodbye.
+--goto end

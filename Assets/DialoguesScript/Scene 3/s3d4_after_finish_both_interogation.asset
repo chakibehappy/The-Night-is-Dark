@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s3d4_after_finish_both_interogation
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 8bc3c832-3628-4bae-bad8-3cd144bdecb6
+    BasePortName: Output
+    TargetCardGuid: 1d081431-91dd-4a2a-bb57-d18069f57f3b
+    TargetPortName: Input
+  - BaseCardGuid: 1d081431-91dd-4a2a-bb57-d18069f57f3b
+    BasePortName: Continue
+    TargetCardGuid: aff905a9-7b97-454f-a7c9-83477fca45f0
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 8bc3c832-3628-4bae-bad8-3cd144bdecb6
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 1d081431-91dd-4a2a-bb57-d18069f57f3b
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 286fe9bc-b284-4266-ad05-8b18dd1dd49a
+      Texts:
+      - Name: 1
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 2
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 3
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 4
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 5
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 6
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 7
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 8
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 9
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      - Name: 10
+        Value: "There\u2019s no one else to interrogate. I can go now."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: aff905a9-7b97-454f-a7c9-83477fca45f0
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

@@ -1,0 +1,859 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s3d2_georgia_turner
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    BasePortName: 6ec7d58d-a958-4baa-97e5-7d5814214bcf
+    TargetCardGuid: e7451ba4-c7cc-4a47-9bb6-0ee714c444ad
+    TargetPortName: Input
+  - BaseCardGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    BasePortName: 4303f02b-df81-47d0-b546-332a7a3c7d22
+    TargetCardGuid: 4c3e6fbf-6dbf-4eab-b2dd-9497d343eeaf
+    TargetPortName: Input
+  - BaseCardGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    BasePortName: bacc03ac-7eb8-4e57-b9ed-2a42c01d42a2
+    TargetCardGuid: 9bf3a650-0a59-4f7f-9510-9df062b49f6a
+    TargetPortName: Input
+  - BaseCardGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    BasePortName: e185892f-126c-419f-9aac-33e7782a18e9
+    TargetCardGuid: 067ec18e-694a-4a42-a54f-8215f76f9086
+    TargetPortName: Input
+  - BaseCardGuid: 75622018-ea25-4b68-adeb-f0b8b02c4acf
+    BasePortName: Output
+    TargetCardGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    TargetPortName: Input
+  - BaseCardGuid: e7451ba4-c7cc-4a47-9bb6-0ee714c444ad
+    BasePortName: Output
+    TargetCardGuid: c74efa8b-9dd4-4ed6-ad50-177c7f3b3b5f
+    TargetPortName: Input
+  - BaseCardGuid: c74efa8b-9dd4-4ed6-ad50-177c7f3b3b5f
+    BasePortName: Continue
+    TargetCardGuid: e3679e02-ce10-49e2-bd6f-aa6377839daa
+    TargetPortName: Input
+  - BaseCardGuid: 4c3e6fbf-6dbf-4eab-b2dd-9497d343eeaf
+    BasePortName: Output
+    TargetCardGuid: d243cceb-19ce-4b34-9b30-5c370113c6bd
+    TargetPortName: Input
+  - BaseCardGuid: d243cceb-19ce-4b34-9b30-5c370113c6bd
+    BasePortName: Continue
+    TargetCardGuid: 82f35549-d01c-4844-a238-b9a006142cdf
+    TargetPortName: Input
+  - BaseCardGuid: 9bf3a650-0a59-4f7f-9510-9df062b49f6a
+    BasePortName: Output
+    TargetCardGuid: 472e96b4-ec54-4b23-91bf-b65c8c5584e4
+    TargetPortName: Input
+  - BaseCardGuid: 472e96b4-ec54-4b23-91bf-b65c8c5584e4
+    BasePortName: Continue
+    TargetCardGuid: db81deec-dedd-4092-8b8c-590acd03c1c0
+    TargetPortName: Input
+  - BaseCardGuid: 067ec18e-694a-4a42-a54f-8215f76f9086
+    BasePortName: Output
+    TargetCardGuid: 04f81c49-3ffe-415b-a32e-292ca53c70c4
+    TargetPortName: Input
+  - BaseCardGuid: 04f81c49-3ffe-415b-a32e-292ca53c70c4
+    BasePortName: Continue
+    TargetCardGuid: 46a02eff-8f53-42d3-a161-a87ad189c893
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 75622018-ea25-4b68-adeb-f0b8b02c4acf
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Georgia Turner
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: f5f4429c-6c82-463b-91fc-78abac7da135
+      Texts:
+      - Name: 1
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 2
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 3
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 4
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 5
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 6
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 7
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 8
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 9
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      - Name: 10
+        Value: "Good afternoon. My name is Aiden Hayes, I\u2019m a detective from
+          the Police Department."
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 42b8c28e-5342-4cac-9b43-f0f5cb0702db
+      Texts:
+      - Name: 1
+        Value: Good afternoon, sir.
+      - Name: 2
+        Value: Good afternoon, sir.
+      - Name: 3
+        Value: Good afternoon, sir.
+      - Name: 4
+        Value: Good afternoon, sir.
+      - Name: 5
+        Value: Good afternoon, sir.
+      - Name: 6
+        Value: Good afternoon, sir.
+      - Name: 7
+        Value: Good afternoon, sir.
+      - Name: 8
+        Value: Good afternoon, sir.
+      - Name: 9
+        Value: Good afternoon, sir.
+      - Name: 10
+        Value: Good afternoon, sir.
+      AudioClips: []
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: 6ec7d58d-a958-4baa-97e5-7d5814214bcf
+      InputGuid: e7451ba4-c7cc-4a47-9bb6-0ee714c444ad
+      OutputGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    - ID:
+        Value: 0
+      PortGuid: 4303f02b-df81-47d0-b546-332a7a3c7d22
+      InputGuid: 4c3e6fbf-6dbf-4eab-b2dd-9497d343eeaf
+      OutputGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    - ID:
+        Value: 0
+      PortGuid: bacc03ac-7eb8-4e57-b9ed-2a42c01d42a2
+      InputGuid: 9bf3a650-0a59-4f7f-9510-9df062b49f6a
+      OutputGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+    - ID:
+        Value: 0
+      PortGuid: e185892f-126c-419f-9aac-33e7782a18e9
+      InputGuid: 067ec18e-694a-4a42-a54f-8215f76f9086
+      OutputGuid: d6b20f33-571b-437b-84a0-2e632c508c6f
+  - CardGuid: c74efa8b-9dd4-4ed6-ad50-177c7f3b3b5f
+    Position: {x: 1150, y: 350}
+    Names:
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 10
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 12
+      CharacterName:
+        Value: Georgia Turner
+    Dialogues:
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 816a7242-f29d-4abc-9104-e37bb83f14ec
+      Texts:
+      - Name: 1
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 2
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 3
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 4
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 5
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 6
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 7
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 8
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 9
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      - Name: 10
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          you know? It\u2019s a nice neighborhood, everyone is so polite, you don\u2019t
+          experience arguments on the floor that much."
+      AudioClips: []
+    - ID:
+        Value: 7
+      GuidID:
+        Value: c42cb79d-1504-43d7-9f8d-b3b591727ea7
+      Texts:
+      - Name: 1
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 2
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 3
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 4
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 5
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 6
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 7
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 8
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 9
+        Value: Hmm, I see. Can you describe the noises?
+      - Name: 10
+        Value: Hmm, I see. Can you describe the noises?
+      AudioClips: []
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 53377cac-04cd-44c7-8867-0ffb46bc00b1
+      Texts:
+      - Name: 1
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 2
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 3
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 4
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 5
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 6
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 7
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 8
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 9
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      - Name: 10
+        Value: I heard like an argument, raised voices. Then something heavy fell
+          down. I heard the kitchen faucet on, we share the wall.
+      AudioClips: []
+    - ID:
+        Value: 11
+      GuidID:
+        Value: dd3358dc-be79-4bc8-9c65-3703fa3f584c
+      Texts:
+      - Name: 1
+        Value: Was someone leaving after that?
+      - Name: 2
+        Value: Was someone leaving after that?
+      - Name: 3
+        Value: Was someone leaving after that?
+      - Name: 4
+        Value: Was someone leaving after that?
+      - Name: 5
+        Value: Was someone leaving after that?
+      - Name: 6
+        Value: Was someone leaving after that?
+      - Name: 7
+        Value: Was someone leaving after that?
+      - Name: 8
+        Value: Was someone leaving after that?
+      - Name: 9
+        Value: Was someone leaving after that?
+      - Name: 10
+        Value: Was someone leaving after that?
+      AudioClips: []
+    - ID:
+        Value: 13
+      GuidID:
+        Value: d2e79f00-0029-4151-b31e-bf40c724ffe0
+      Texts:
+      - Name: 1
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 2
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 3
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 4
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 5
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 6
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 7
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 8
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 9
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      - Name: 10
+        Value: "Yes, but I haven\u2019t seen who that was. A man for sure, I heard
+          heavy steps."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: d243cceb-19ce-4b34-9b30-5c370113c6bd
+    Position: {x: 1500, y: 650}
+    Names:
+    - ID:
+        Value: 14
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 16
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 18
+      CharacterName:
+        Value: Georgia Turner
+    Dialogues:
+    - ID:
+        Value: 15
+      GuidID:
+        Value: 21b425fb-3f06-4626-8848-000f1d2ca4e8
+      Texts:
+      - Name: 1
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 2
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 3
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 4
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 5
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 6
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 7
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 8
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 9
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      - Name: 10
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. That man was coming here often.
+          I guess she got what she deserved for cheating on her husband."
+      AudioClips: []
+    - ID:
+        Value: 17
+      GuidID:
+        Value: 9bbc3b1a-5985-4883-bcec-0360f1f9ddfe
+      Texts:
+      - Name: 1
+        Value: A lover you say? Do you know his name?
+      - Name: 2
+        Value: A lover you say? Do you know his name?
+      - Name: 3
+        Value: A lover you say? Do you know his name?
+      - Name: 4
+        Value: A lover you say? Do you know his name?
+      - Name: 5
+        Value: A lover you say? Do you know his name?
+      - Name: 6
+        Value: A lover you say? Do you know his name?
+      - Name: 7
+        Value: A lover you say? Do you know his name?
+      - Name: 8
+        Value: A lover you say? Do you know his name?
+      - Name: 9
+        Value: A lover you say? Do you know his name?
+      - Name: 10
+        Value: A lover you say? Do you know his name?
+      AudioClips: []
+    - ID:
+        Value: 19
+      GuidID:
+        Value: c4cc27d6-fa4f-4e01-8894-8615bd21e0a6
+      Texts:
+      - Name: 1
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 2
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 3
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 4
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 5
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 6
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 7
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 8
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 9
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      - Name: 10
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, is such a good man, I wish my grandaughter had a man like him instead
+          of that lazy leech\u2026"
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: 472e96b4-ec54-4b23-91bf-b65c8c5584e4
+    Position: {x: 1850, y: 950}
+    Names:
+    - ID:
+        Value: 20
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 22
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 24
+      CharacterName:
+        Value: Georgia Turner
+    Dialogues:
+    - ID:
+        Value: 21
+      GuidID:
+        Value: c7c5d8ef-278a-4f7b-a489-96ef89bd5184
+      Texts:
+      - Name: 1
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 2
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 3
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 4
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 5
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 6
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 7
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 8
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 9
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      - Name: 10
+        Value: Yesterday. She was going back from work when I met her in the hallway.
+      AudioClips: []
+    - ID:
+        Value: 23
+      GuidID:
+        Value: 20a801bd-7ae8-4165-ac95-52bc1d6023f4
+      Texts:
+      - Name: 1
+        Value: Was she alone?
+      - Name: 2
+        Value: Was she alone?
+      - Name: 3
+        Value: Was she alone?
+      - Name: 4
+        Value: Was she alone?
+      - Name: 5
+        Value: Was she alone?
+      - Name: 6
+        Value: Was she alone?
+      - Name: 7
+        Value: Was she alone?
+      - Name: 8
+        Value: Was she alone?
+      - Name: 9
+        Value: Was she alone?
+      - Name: 10
+        Value: Was she alone?
+      AudioClips: []
+    - ID:
+        Value: 25
+      GuidID:
+        Value: 6fff6afe-a4d3-4bc8-9d77-bbba697c5d26
+      Texts:
+      - Name: 1
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 2
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 3
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 4
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 5
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 6
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 7
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 8
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 9
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      - Name: 10
+        Value: "Yes. I haven\u2019t seen her husband in a few days."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: 04f81c49-3ffe-415b-a32e-292ca53c70c4
+    Position: {x: 2200, y: 1250}
+    Names:
+    - ID:
+        Value: 26
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 28
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 30
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 32
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 27
+      GuidID:
+        Value: 982886c3-58fb-48b9-9796-a3494204265d
+      Texts:
+      - Name: 1
+        Value: Of course, sir. Glad I could help.
+      - Name: 2
+        Value: Of course, sir. Glad I could help.
+      - Name: 3
+        Value: Of course, sir. Glad I could help.
+      - Name: 4
+        Value: Of course, sir. Glad I could help.
+      - Name: 5
+        Value: Of course, sir. Glad I could help.
+      - Name: 6
+        Value: Of course, sir. Glad I could help.
+      - Name: 7
+        Value: Of course, sir. Glad I could help.
+      - Name: 8
+        Value: Of course, sir. Glad I could help.
+      - Name: 9
+        Value: Of course, sir. Glad I could help.
+      - Name: 10
+        Value: Of course, sir. Glad I could help.
+      AudioClips: []
+    - ID:
+        Value: 29
+      GuidID:
+        Value: 234dfb72-e819-4276-938e-647e76180655
+      Texts:
+      - Name: 1
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 2
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 3
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 4
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 5
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 6
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 7
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 8
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 9
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      - Name: 10
+        Value: "Here\u2019s my business card, if you remember anything more, give
+          me a call."
+      AudioClips: []
+    - ID:
+        Value: 31
+      GuidID:
+        Value: fccb1bf6-e27b-40bf-86ae-d0117945517f
+      Texts:
+      - Name: 1
+        Value: Of course, sir. Goodbye.
+      - Name: 2
+        Value: Of course, sir. Goodbye.
+      - Name: 3
+        Value: Of course, sir. Goodbye.
+      - Name: 4
+        Value: Of course, sir. Goodbye.
+      - Name: 5
+        Value: Of course, sir. Goodbye.
+      - Name: 6
+        Value: Of course, sir. Goodbye.
+      - Name: 7
+        Value: Of course, sir. Goodbye.
+      - Name: 8
+        Value: Of course, sir. Goodbye.
+      - Name: 9
+        Value: Of course, sir. Goodbye.
+      - Name: 10
+        Value: Of course, sir. Goodbye.
+      AudioClips: []
+    - ID:
+        Value: 33
+      GuidID:
+        Value: 58065a39-6d86-4fce-aff7-9f39c32f84a4
+      Texts:
+      - Name: 1
+        Value: Goodbye.
+      - Name: 2
+        Value: Goodbye.
+      - Name: 3
+        Value: Goodbye.
+      - Name: 4
+        Value: Goodbye.
+      - Name: 5
+        Value: Goodbye.
+      - Name: 6
+        Value: Goodbye.
+      - Name: 7
+        Value: Goodbye.
+      - Name: 8
+        Value: Goodbye.
+      - Name: 9
+        Value: Goodbye.
+      - Name: 10
+        Value: Goodbye.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas:
+  - CardGuid: e7451ba4-c7cc-4a47-9bb6-0ee714c444ad
+    Position: {x: 800, y: 350}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: You were the one who called the police, right?
+    - Name: 2
+      Value: You were the one who called the police, right?
+    - Name: 3
+      Value: You were the one who called the police, right?
+    - Name: 4
+      Value: You were the one who called the police, right?
+    - Name: 5
+      Value: You were the one who called the police, right?
+    - Name: 6
+      Value: You were the one who called the police, right?
+    - Name: 7
+      Value: You were the one who called the police, right?
+    - Name: 8
+      Value: You were the one who called the police, right?
+    - Name: 9
+      Value: You were the one who called the police, right?
+    - Name: 10
+      Value: You were the one who called the police, right?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: 4c3e6fbf-6dbf-4eab-b2dd-9497d343eeaf
+    Position: {x: 800, y: 500}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 2
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 3
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 4
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 5
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 6
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 7
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 8
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 9
+      Value: Have you seen anything weird or uncommon recently?
+    - Name: 10
+      Value: Have you seen anything weird or uncommon recently?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: 9bf3a650-0a59-4f7f-9510-9df062b49f6a
+    Position: {x: 800, y: 650}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 2
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 3
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 4
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 5
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 6
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 7
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 8
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 9
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 10
+      Value: When was the last time you saw Connie Matthews?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: 067ec18e-694a-4a42-a54f-8215f76f9086
+    Position: {x: 800, y: 800}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Thank you for the information.
+    - Name: 2
+      Value: Thank you for the information.
+    - Name: 3
+      Value: Thank you for the information.
+    - Name: 4
+      Value: Thank you for the information.
+    - Name: 5
+      Value: Thank you for the information.
+    - Name: 6
+      Value: Thank you for the information.
+    - Name: 7
+      Value: Thank you for the information.
+    - Name: 8
+      Value: Thank you for the information.
+    - Name: 9
+      Value: Thank you for the information.
+    - Name: 10
+      Value: Thank you for the information.
+    VoiceOvers: []
+    Conditions: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: e3679e02-ce10-49e2-bd6f-aa6377839daa
+    Position: {x: 1500, y: 250}
+    EndState:
+      Value: 3
+  - CardGuid: 82f35549-d01c-4844-a238-b9a006142cdf
+    Position: {x: 1850, y: 550}
+    EndState:
+      Value: 3
+  - CardGuid: db81deec-dedd-4092-8b8c-590acd03c1c0
+    Position: {x: 2200, y: 850}
+    EndState:
+      Value: 3
+  - CardGuid: 46a02eff-8f53-42d3-a161-a87ad189c893
+    Position: {x: 2550, y: 1150}
+    EndState:
+      Value: 1

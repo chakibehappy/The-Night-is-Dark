@@ -1,0 +1,735 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s3d3_teenage_girl
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    BasePortName: a6025027-fbb3-444e-b7f6-9c69360d8797
+    TargetCardGuid: c40e1322-00a1-46a2-bd53-15cf94e074e2
+    TargetPortName: Input
+  - BaseCardGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    BasePortName: ccc1fbcd-3ab5-4e47-a6d5-67bb37cd64e8
+    TargetCardGuid: 1f8d3562-3ef6-4293-8ba9-e8fd544b51ef
+    TargetPortName: Input
+  - BaseCardGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    BasePortName: 5079701d-7708-4a76-9ee8-8c43b1321e1d
+    TargetCardGuid: 40754e3c-4fa1-45ec-8ee9-d78fb569f5f8
+    TargetPortName: Input
+  - BaseCardGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    BasePortName: b4039c2e-bc55-4781-b724-ec837a8b79f5
+    TargetCardGuid: 08305af9-eac5-4fc3-819d-bfbc16c89d9a
+    TargetPortName: Input
+  - BaseCardGuid: e4b84a19-b630-4333-b637-8cded7dea3b8
+    BasePortName: Output
+    TargetCardGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    TargetPortName: Input
+  - BaseCardGuid: c40e1322-00a1-46a2-bd53-15cf94e074e2
+    BasePortName: Output
+    TargetCardGuid: 4a3f13de-e820-46bf-bdb1-8f0ac3087547
+    TargetPortName: Input
+  - BaseCardGuid: 4a3f13de-e820-46bf-bdb1-8f0ac3087547
+    BasePortName: Continue
+    TargetCardGuid: ed217354-bacf-4a10-95d0-5dde9a3b7d0e
+    TargetPortName: Input
+  - BaseCardGuid: 1f8d3562-3ef6-4293-8ba9-e8fd544b51ef
+    BasePortName: Output
+    TargetCardGuid: 7bf54f7b-a2db-4848-bcd9-60147028db3d
+    TargetPortName: Input
+  - BaseCardGuid: 7bf54f7b-a2db-4848-bcd9-60147028db3d
+    BasePortName: Continue
+    TargetCardGuid: 76ff9ef0-8fad-4b80-8da7-0b08fdeb2159
+    TargetPortName: Input
+  - BaseCardGuid: 40754e3c-4fa1-45ec-8ee9-d78fb569f5f8
+    BasePortName: Output
+    TargetCardGuid: 79352b29-d845-4d4f-9570-f97bffc80670
+    TargetPortName: Input
+  - BaseCardGuid: 79352b29-d845-4d4f-9570-f97bffc80670
+    BasePortName: Continue
+    TargetCardGuid: c2fb4965-50ad-4cdd-8d98-7aa7e15f5945
+    TargetPortName: Input
+  - BaseCardGuid: 08305af9-eac5-4fc3-819d-bfbc16c89d9a
+    BasePortName: Output
+    TargetCardGuid: f8628722-f973-440c-bfe8-5558156ba4d0
+    TargetPortName: Input
+  - BaseCardGuid: f8628722-f973-440c-bfe8-5558156ba4d0
+    BasePortName: Continue
+    TargetCardGuid: f3b5cd20-2c5e-4905-bf90-4b1bde949d8a
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: e4b84a19-b630-4333-b637-8cded7dea3b8
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Teenage girl
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: a2bdfeae-a52e-421e-9553-a3d0e5b00d5b
+      Texts:
+      - Name: 1
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 2
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 3
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 4
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 5
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 6
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 7
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 8
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 9
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      - Name: 10
+        Value: "Hello, I\u2019m Detective Aiden Hayes, I\u2019m investigating the
+          case of your neighbor from apartment 6."
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: b8dede4e-567b-4b09-936b-d03e452d3408
+      Texts:
+      - Name: 1
+        Value: On my god, is she dead?
+      - Name: 2
+        Value: On my god, is she dead?
+      - Name: 3
+        Value: On my god, is she dead?
+      - Name: 4
+        Value: On my god, is she dead?
+      - Name: 5
+        Value: On my god, is she dead?
+      - Name: 6
+        Value: On my god, is she dead?
+      - Name: 7
+        Value: On my god, is she dead?
+      - Name: 8
+        Value: On my god, is she dead?
+      - Name: 9
+        Value: On my god, is she dead?
+      - Name: 10
+        Value: On my god, is she dead?
+      AudioClips: []
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: a6025027-fbb3-444e-b7f6-9c69360d8797
+      InputGuid: c40e1322-00a1-46a2-bd53-15cf94e074e2
+      OutputGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    - ID:
+        Value: 0
+      PortGuid: ccc1fbcd-3ab5-4e47-a6d5-67bb37cd64e8
+      InputGuid: 1f8d3562-3ef6-4293-8ba9-e8fd544b51ef
+      OutputGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    - ID:
+        Value: 0
+      PortGuid: 5079701d-7708-4a76-9ee8-8c43b1321e1d
+      InputGuid: 40754e3c-4fa1-45ec-8ee9-d78fb569f5f8
+      OutputGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+    - ID:
+        Value: 0
+      PortGuid: b4039c2e-bc55-4781-b724-ec837a8b79f5
+      InputGuid: 08305af9-eac5-4fc3-819d-bfbc16c89d9a
+      OutputGuid: eabc9e42-4560-4628-b00b-fd27857bb4cb
+  - CardGuid: 4a3f13de-e820-46bf-bdb1-8f0ac3087547
+    Position: {x: 1150, y: 350}
+    Names:
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Teenage girl
+    Dialogues:
+    - ID:
+        Value: 5
+      GuidID:
+        Value: b2fc3cca-ba94-45a7-b73d-ea3e37e359cd
+      Texts:
+      - Name: 1
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 2
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 3
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 4
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 5
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 6
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 7
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 8
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 9
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      - Name: 10
+        Value: "Naaah, they\u2019re at work as always. I spend most of the time at
+          home though."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: 7bf54f7b-a2db-4848-bcd9-60147028db3d
+    Position: {x: 1500, y: 650}
+    Names:
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Teenage girl
+    - ID:
+        Value: 9
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 11
+      CharacterName:
+        Value: Teenage girl
+    Dialogues:
+    - ID:
+        Value: 7
+      GuidID:
+        Value: d95b8adb-5e53-44f3-8317-be088bf8db67
+      Texts:
+      - Name: 1
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 2
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 3
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 4
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 5
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 6
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 7
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 8
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 9
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      - Name: 10
+        Value: No, not really. But I heard some noises from the apartment today,
+          I was going to grab some snacks.
+      AudioClips: []
+    - ID:
+        Value: 8
+      GuidID:
+        Value: 1c4a69c4-aec6-42e5-9f8f-d62ee844d0da
+      Texts:
+      - Name: 1
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 2
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 3
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 4
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 5
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 6
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 7
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 8
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 9
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      - Name: 10
+        Value: Then when I came home I heard someone leaving, powerwalking in the
+          hallway.
+      AudioClips: []
+    - ID:
+        Value: 10
+      GuidID:
+        Value: 69ecc842-f1fe-4b42-a15e-541ba69a7533
+      Texts:
+      - Name: 1
+        Value: Did you see who that was?
+      - Name: 2
+        Value: Did you see who that was?
+      - Name: 3
+        Value: Did you see who that was?
+      - Name: 4
+        Value: Did you see who that was?
+      - Name: 5
+        Value: Did you see who that was?
+      - Name: 6
+        Value: Did you see who that was?
+      - Name: 7
+        Value: Did you see who that was?
+      - Name: 8
+        Value: Did you see who that was?
+      - Name: 9
+        Value: Did you see who that was?
+      - Name: 10
+        Value: Did you see who that was?
+      AudioClips: []
+    - ID:
+        Value: 12
+      GuidID:
+        Value: e386a9bb-5fb5-46ae-81d1-154e871c0196
+      Texts:
+      - Name: 1
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 2
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 3
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 4
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 5
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 6
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 7
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 8
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 9
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      - Name: 10
+        Value: "Nah, I was already at home and I\u2019m not gonna snoop on my neighbors
+          through the peephole."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: 79352b29-d845-4d4f-9570-f97bffc80670
+    Position: {x: 1850, y: 950}
+    Names:
+    - ID:
+        Value: 13
+      CharacterName:
+        Value: Teenage girl
+    - ID:
+        Value: 15
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 17
+      CharacterName:
+        Value: Teenage girl
+    Dialogues:
+    - ID:
+        Value: 14
+      GuidID:
+        Value: 25c035f7-cf18-4fd6-aed2-b3ec3d1322c1
+      Texts:
+      - Name: 1
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 2
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 3
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 4
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 5
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 6
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 7
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 8
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 9
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      - Name: 10
+        Value: "Ughhh, I don\u2019t know. Like a few days ago? She was with this
+          other man."
+      AudioClips: []
+    - ID:
+        Value: 16
+      GuidID:
+        Value: b84a4ae1-c86f-468a-a318-d3a51e9dea28
+      Texts:
+      - Name: 1
+        Value: You mean Leonard?
+      - Name: 2
+        Value: You mean Leonard?
+      - Name: 3
+        Value: You mean Leonard?
+      - Name: 4
+        Value: You mean Leonard?
+      - Name: 5
+        Value: You mean Leonard?
+      - Name: 6
+        Value: You mean Leonard?
+      - Name: 7
+        Value: You mean Leonard?
+      - Name: 8
+        Value: You mean Leonard?
+      - Name: 9
+        Value: You mean Leonard?
+      - Name: 10
+        Value: You mean Leonard?
+      AudioClips: []
+    - ID:
+        Value: 18
+      GuidID:
+        Value: 494493b8-3aaf-41fd-848f-4bd1a0138f7c
+      Texts:
+      - Name: 1
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 2
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 3
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 4
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 5
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 6
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 7
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 8
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 9
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      - Name: 10
+        Value: "I don\u2019t know his name, maybe. Not her husband though."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: f8628722-f973-440c-bfe8-5558156ba4d0
+    Position: {x: 2200, y: 1250}
+    Names:
+    - ID:
+        Value: 19
+      CharacterName:
+        Value: Teenage girl
+    - ID:
+        Value: 21
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 23
+      CharacterName:
+        Value: Teenage girl
+    - ID:
+        Value: 25
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 20
+      GuidID:
+        Value: 05451ada-291c-4c3f-97b6-7ba1a82329e3
+      Texts:
+      - Name: 1
+        Value: Okay, no probs, sir!
+      - Name: 2
+        Value: Okay, no probs, sir!
+      - Name: 3
+        Value: Okay, no probs, sir!
+      - Name: 4
+        Value: Okay, no probs, sir!
+      - Name: 5
+        Value: Okay, no probs, sir!
+      - Name: 6
+        Value: Okay, no probs, sir!
+      - Name: 7
+        Value: Okay, no probs, sir!
+      - Name: 8
+        Value: Okay, no probs, sir!
+      - Name: 9
+        Value: Okay, no probs, sir!
+      - Name: 10
+        Value: Okay, no probs, sir!
+      AudioClips: []
+    - ID:
+        Value: 22
+      GuidID:
+        Value: d7394972-17d6-4bf7-a19b-5d131bd8e208
+      Texts:
+      - Name: 1
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 2
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 3
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 4
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 5
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 6
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 7
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 8
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 9
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      - Name: 10
+        Value: "Here\u2019s my business card. If you or your parents will have anything
+          more to add, call me."
+      AudioClips: []
+    - ID:
+        Value: 24
+      GuidID:
+        Value: 1c7e1bc6-7cd3-4d9c-9a80-081224a7b930
+      Texts:
+      - Name: 1
+        Value: Sure thing, bye!
+      - Name: 2
+        Value: Sure thing, bye!
+      - Name: 3
+        Value: Sure thing, bye!
+      - Name: 4
+        Value: Sure thing, bye!
+      - Name: 5
+        Value: Sure thing, bye!
+      - Name: 6
+        Value: Sure thing, bye!
+      - Name: 7
+        Value: Sure thing, bye!
+      - Name: 8
+        Value: Sure thing, bye!
+      - Name: 9
+        Value: Sure thing, bye!
+      - Name: 10
+        Value: Sure thing, bye!
+      AudioClips: []
+    - ID:
+        Value: 26
+      GuidID:
+        Value: bd3cf4c5-fc65-488b-9908-3d6375f41a9c
+      Texts:
+      - Name: 1
+        Value: Thank you, goodbye.
+      - Name: 2
+        Value: Thank you, goodbye.
+      - Name: 3
+        Value: Thank you, goodbye.
+      - Name: 4
+        Value: Thank you, goodbye.
+      - Name: 5
+        Value: Thank you, goodbye.
+      - Name: 6
+        Value: Thank you, goodbye.
+      - Name: 7
+        Value: Thank you, goodbye.
+      - Name: 8
+        Value: Thank you, goodbye.
+      - Name: 9
+        Value: Thank you, goodbye.
+      - Name: 10
+        Value: Thank you, goodbye.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas:
+  - CardGuid: c40e1322-00a1-46a2-bd53-15cf94e074e2
+    Position: {x: 800, y: 350}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Are your parents home?
+    - Name: 2
+      Value: Are your parents home?
+    - Name: 3
+      Value: Are your parents home?
+    - Name: 4
+      Value: Are your parents home?
+    - Name: 5
+      Value: Are your parents home?
+    - Name: 6
+      Value: Are your parents home?
+    - Name: 7
+      Value: Are your parents home?
+    - Name: 8
+      Value: Are your parents home?
+    - Name: 9
+      Value: Are your parents home?
+    - Name: 10
+      Value: Are your parents home?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: 1f8d3562-3ef6-4293-8ba9-e8fd544b51ef
+    Position: {x: 800, y: 500}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 2
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 3
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 4
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 5
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 6
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 7
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 8
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 9
+      Value: Have you seen anything uncommon or suspicious recently?
+    - Name: 10
+      Value: Have you seen anything uncommon or suspicious recently?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: 40754e3c-4fa1-45ec-8ee9-d78fb569f5f8
+    Position: {x: 800, y: 650}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 2
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 3
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 4
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 5
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 6
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 7
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 8
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 9
+      Value: When was the last time you saw Connie Matthews?
+    - Name: 10
+      Value: When was the last time you saw Connie Matthews?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: 08305af9-eac5-4fc3-819d-bfbc16c89d9a
+    Position: {x: 800, y: 800}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Thank you for the information.
+    - Name: 2
+      Value: Thank you for the information.
+    - Name: 3
+      Value: Thank you for the information.
+    - Name: 4
+      Value: Thank you for the information.
+    - Name: 5
+      Value: Thank you for the information.
+    - Name: 6
+      Value: Thank you for the information.
+    - Name: 7
+      Value: Thank you for the information.
+    - Name: 8
+      Value: Thank you for the information.
+    - Name: 9
+      Value: Thank you for the information.
+    - Name: 10
+      Value: Thank you for the information.
+    VoiceOvers: []
+    Conditions: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: ed217354-bacf-4a10-95d0-5dde9a3b7d0e
+    Position: {x: 1500, y: 250}
+    EndState:
+      Value: 3
+  - CardGuid: 76ff9ef0-8fad-4b80-8da7-0b08fdeb2159
+    Position: {x: 1850, y: 550}
+    EndState:
+      Value: 3
+  - CardGuid: c2fb4965-50ad-4cdd-8d98-7aa7e15f5945
+    Position: {x: 2200, y: 850}
+    EndState:
+      Value: 3
+  - CardGuid: f3b5cd20-2c5e-4905-bf90-4b1bde949d8a
+    Position: {x: 2550, y: 1150}
+    EndState:
+      Value: 1

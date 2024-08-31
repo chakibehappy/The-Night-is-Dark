@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s3d5_phone_coonvo_near_leaving_building
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 5bf2cb49-008c-4e14-8d0a-12cda7878586
+    BasePortName: Output
+    TargetCardGuid: c7990e5b-ca47-4c57-b1a6-17fca4830db8
+    TargetPortName: Input
+  - BaseCardGuid: c7990e5b-ca47-4c57-b1a6-17fca4830db8
+    BasePortName: Continue
+    TargetCardGuid: 11adcb32-44d8-4d15-b97f-e1bba2519825
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 5bf2cb49-008c-4e14-8d0a-12cda7878586
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: c7990e5b-ca47-4c57-b1a6-17fca4830db8
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: The dispatcher
+    - ID:
+        Value: 10
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 12
+      CharacterName:
+        Value: The dispatcher
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: fb6ed74d-369b-46aa-b3e7-3f49f536b83a
+      Texts:
+      - Name: 1
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 2
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 3
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 4
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 5
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 6
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 7
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 8
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 9
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      - Name: 10
+        Value: "Hey Aiden, it\u2019s me again. We found the lover. His name is Leonard
+          Murphy."
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 241993f4-d146-4330-a4c3-72eac85af4a5
+      Texts:
+      - Name: 1
+        Value: Alright, his alibi?
+      - Name: 2
+        Value: Alright, his alibi?
+      - Name: 3
+        Value: Alright, his alibi?
+      - Name: 4
+        Value: Alright, his alibi?
+      - Name: 5
+        Value: Alright, his alibi?
+      - Name: 6
+        Value: Alright, his alibi?
+      - Name: 7
+        Value: Alright, his alibi?
+      - Name: 8
+        Value: Alright, his alibi?
+      - Name: 9
+        Value: Alright, his alibi?
+      - Name: 10
+        Value: Alright, his alibi?
+      AudioClips: []
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 39dc88a6-1cf3-4419-bd59-35781749ce17
+      Texts:
+      - Name: 1
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 2
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 3
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 4
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 5
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 6
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 7
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 8
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 9
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      - Name: 10
+        Value: "He\u2019s clear, he\u2019s been out of town since Monday."
+      AudioClips: []
+    - ID:
+        Value: 7
+      GuidID:
+        Value: 4171302e-807b-467c-b769-621ff1b1ac14
+      Texts:
+      - Name: 1
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 2
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 3
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 4
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 5
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 6
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 7
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 8
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 9
+        Value: Hmm, okay. Any news about the husband?
+      - Name: 10
+        Value: Hmm, okay. Any news about the husband?
+      AudioClips: []
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 89fc7cb2-5d4e-4024-bc92-146059386423
+      Texts:
+      - Name: 1
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 2
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 3
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 4
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 5
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 6
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 7
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 8
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 9
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      - Name: 10
+        Value: "Not yet, we\u2019re checking surveillance cameras to confirm his
+          alibi. Will update you later. Oh, but I found that EcoTech-something company.
+          I\u2019ll send you a message with the address."
+      AudioClips: []
+    - ID:
+        Value: 11
+      GuidID:
+        Value: f029b704-035a-4420-8675-df56bd3402e0
+      Texts:
+      - Name: 1
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 2
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 3
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 4
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 5
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 6
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 7
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 8
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 9
+        Value: "Alright, I\u2019ll go there now."
+      - Name: 10
+        Value: "Alright, I\u2019ll go there now."
+      AudioClips: []
+    - ID:
+        Value: 13
+      GuidID:
+        Value: e34cda70-1ce7-42c7-9e22-0631924ec591
+      Texts:
+      - Name: 1
+        Value: "I\u2019ll call when I have more information."
+      - Name: 2
+        Value: "I\u2019ll call when I have more information."
+      - Name: 3
+        Value: "I\u2019ll call when I have more information."
+      - Name: 4
+        Value: "I\u2019ll call when I have more information."
+      - Name: 5
+        Value: "I\u2019ll call when I have more information."
+      - Name: 6
+        Value: "I\u2019ll call when I have more information."
+      - Name: 7
+        Value: "I\u2019ll call when I have more information."
+      - Name: 8
+        Value: "I\u2019ll call when I have more information."
+      - Name: 9
+        Value: "I\u2019ll call when I have more information."
+      - Name: 10
+        Value: "I\u2019ll call when I have more information."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 11adcb32-44d8-4d15-b97f-e1bba2519825
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

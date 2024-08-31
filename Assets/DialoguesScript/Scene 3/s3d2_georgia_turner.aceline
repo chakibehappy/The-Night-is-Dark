@@ -1,0 +1,36 @@
+Aiden Hayes: Good afternoon. My name is Aiden Hayes, I’m a detective from the Police Department. 
+Georgia Turner: Good afternoon, sir.
+
+--open choice
+1-- You were the one who called the police, right?
+2-- Have you seen anything weird or uncommon recently?
+3-- When was the last time you saw Connie Matthews?
+4-- Thank you for the information.
+--close choice
+
+--continue choice 1
+Georgia Turner: Yes, I heard some arguments and something like a scream. I got concerned, you know? It’s a nice neighborhood, everyone is so polite, you don’t experience arguments on the floor that much.
+Aiden Hayes: Hmm, I see. Can you describe the noises?
+Georgia Turner: I heard like an argument, raised voices. Then something heavy fell down. I heard the kitchen faucet on, we share the wall. 
+Aiden Hayes: Was someone leaving after that?
+Georgia Turner:  Yes, but I haven’t seen who that was. A man for sure, I heard heavy steps.
+--goto back
+
+--continue choice 2
+Georgia Turner: Well, this young lady Connie… She has a lover, you know? And she’s married too! Such a… ehh. That man was coming here often. I guess she got what she deserved for cheating on her husband.
+Aiden Hayes: A lover you say? Do you know his name? 
+Georgia Turner: Oh God forbid! I do not know that bastard’s name. Her husband though, is such a good man, I wish my grandaughter had a man like him instead of that lazy leech…
+--goto back
+
+--continue choice 3
+Georgia Turner: Yesterday. She was going back from work when I met her in the hallway.
+Aiden Hayes: Was she alone?
+Georgia Turner: Yes. I haven’t seen her husband in a few days.
+--goto back
+
+--continue choice 4
+Georgia Turner: Of course, sir. Glad I could help. 
+Aiden Hayes: Here’s my business card, if you remember anything more, give me a call. 
+Georgia Turner: Of course, sir. Goodbye.
+Aiden Hayes:  Goodbye.
+--goto end

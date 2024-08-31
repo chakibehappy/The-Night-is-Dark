@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d11_aiden_read_postcard_on_table
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: fd6a866c-e139-437c-bde0-d2c5ae95a8b3
+    BasePortName: Output
+    TargetCardGuid: de4f8717-19c8-4d38-9d32-a59246f52188
+    TargetPortName: Input
+  - BaseCardGuid: de4f8717-19c8-4d38-9d32-a59246f52188
+    BasePortName: Continue
+    TargetCardGuid: 68c45bd9-cc54-437a-897a-b4e1afaec064
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: fd6a866c-e139-437c-bde0-d2c5ae95a8b3
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: de4f8717-19c8-4d38-9d32-a59246f52188
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 9252d54f-b4de-475d-b0b8-0e5b784df156
+      Texts:
+      - Name: 1
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 2
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 3
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 4
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 5
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 6
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 7
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 8
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 9
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      - Name: 10
+        Value: "\u201CI miss you deeply, my love. I cannot wait to come back and
+          have you all to myself. See you soon, sweetie. - Leonard.\u201D Worth to
+          keep that name in mind."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 68c45bd9-cc54-437a-897a-b4e1afaec064
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

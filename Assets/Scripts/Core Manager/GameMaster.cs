@@ -49,6 +49,8 @@ public class GameMaster : MonoBehaviour
 
     public Transform currentCamera;
 
+    public bool canHover = true;
+
     public void ChangeCamera(int cameraIndex, bool addDelay = false)
     {
         StartCoroutine(ChangeCameraIE(cameraIndex, addDelay));

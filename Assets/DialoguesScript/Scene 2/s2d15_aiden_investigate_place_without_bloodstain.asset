@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d15_aiden_investigate_place_without_bloodstain
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: b19ec6d4-cd26-4977-9ced-cd0486883f5d
+    BasePortName: Output
+    TargetCardGuid: fda3c86a-a3ed-476d-871e-6ef9f48cbbca
+    TargetPortName: Input
+  - BaseCardGuid: fda3c86a-a3ed-476d-871e-6ef9f48cbbca
+    BasePortName: Continue
+    TargetCardGuid: 68543fdb-988e-4a9f-8312-96a40c8200b7
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: b19ec6d4-cd26-4977-9ced-cd0486883f5d
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: fda3c86a-a3ed-476d-871e-6ef9f48cbbca
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: cd6a8086-b806-4c30-a99e-147da04f8b2c
+      Texts:
+      - Name: 1
+        Value: Nothing there.
+      - Name: 2
+        Value: Nothing there.
+      - Name: 3
+        Value: Nothing there.
+      - Name: 4
+        Value: Nothing there.
+      - Name: 5
+        Value: Nothing there.
+      - Name: 6
+        Value: Nothing there.
+      - Name: 7
+        Value: Nothing there.
+      - Name: 8
+        Value: Nothing there.
+      - Name: 9
+        Value: Nothing there.
+      - Name: 10
+        Value: Nothing there.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 68543fdb-988e-4a9f-8312-96a40c8200b7
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

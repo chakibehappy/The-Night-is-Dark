@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d5B_aiden_find_knife_bloody_version
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: cb197e04-3a87-400b-a0ba-8c7e4a23d5d5
+    BasePortName: Output
+    TargetCardGuid: 779c6b66-0287-4d5b-a6b5-41b2c62e946e
+    TargetPortName: Input
+  - BaseCardGuid: 779c6b66-0287-4d5b-a6b5-41b2c62e946e
+    BasePortName: Continue
+    TargetCardGuid: 15bce43f-a98e-4031-9feb-d19fdc5d7470
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: cb197e04-3a87-400b-a0ba-8c7e4a23d5d5
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 779c6b66-0287-4d5b-a6b5-41b2c62e946e
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 0b809f43-3a85-4745-bba9-69d0b231163d
+      Texts:
+      - Name: 1
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 2
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 3
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 4
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 5
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 6
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 7
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 8
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 9
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      - Name: 10
+        Value: Look at that, beautifully exposed murder weapon. Thank you for making
+          my job easier, Mr. Killer.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 15bce43f-a98e-4031-9feb-d19fdc5d7470
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

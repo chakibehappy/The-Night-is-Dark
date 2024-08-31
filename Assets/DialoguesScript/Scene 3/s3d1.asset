@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s3d1
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 3611970f-0ba2-4804-ab25-b39975d1438d
+    BasePortName: Output
+    TargetCardGuid: 2b1fd42c-6a38-4a52-ba86-1ffae87be35f
+    TargetPortName: Input
+  - BaseCardGuid: 2b1fd42c-6a38-4a52-ba86-1ffae87be35f
+    BasePortName: Continue
+    TargetCardGuid: ae722fad-ef0a-46fc-ad13-9d46f9a27b10
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 3611970f-0ba2-4804-ab25-b39975d1438d
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 2b1fd42c-6a38-4a52-ba86-1ffae87be35f
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 22f02585-aa43-4b77-a446-8170224cb0f3
+      Texts:
+      - Name: 1
+        Value: Maybe the neighbors will have something to say.
+      - Name: 2
+        Value: Maybe the neighbors will have something to say.
+      - Name: 3
+        Value: Maybe the neighbors will have something to say.
+      - Name: 4
+        Value: Maybe the neighbors will have something to say.
+      - Name: 5
+        Value: Maybe the neighbors will have something to say.
+      - Name: 6
+        Value: Maybe the neighbors will have something to say.
+      - Name: 7
+        Value: Maybe the neighbors will have something to say.
+      - Name: 8
+        Value: Maybe the neighbors will have something to say.
+      - Name: 9
+        Value: Maybe the neighbors will have something to say.
+      - Name: 10
+        Value: Maybe the neighbors will have something to say.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: ae722fad-ef0a-46fc-ad13-9d46f9a27b10
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

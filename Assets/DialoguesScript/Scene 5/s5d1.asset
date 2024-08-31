@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s5d1
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 9011c73c-4955-455e-ab6b-76d7d3f6a989
+    BasePortName: Output
+    TargetCardGuid: 4b04e77f-583f-4f06-9917-b2d71f185d89
+    TargetPortName: Input
+  - BaseCardGuid: 4b04e77f-583f-4f06-9917-b2d71f185d89
+    BasePortName: Continue
+    TargetCardGuid: 3fce2210-b340-494a-be49-df9fc07653bc
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 9011c73c-4955-455e-ab6b-76d7d3f6a989
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 4b04e77f-583f-4f06-9917-b2d71f185d89
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 08405909-8dbc-41bc-9e26-6895ed5d13f9
+      Texts:
+      - Name: 1
+        Value: I see they already took her.
+      - Name: 2
+        Value: I see they already took her.
+      - Name: 3
+        Value: I see they already took her.
+      - Name: 4
+        Value: I see they already took her.
+      - Name: 5
+        Value: I see they already took her.
+      - Name: 6
+        Value: I see they already took her.
+      - Name: 7
+        Value: I see they already took her.
+      - Name: 8
+        Value: I see they already took her.
+      - Name: 9
+        Value: I see they already took her.
+      - Name: 10
+        Value: I see they already took her.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 3fce2210-b340-494a-be49-df9fc07653bc
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

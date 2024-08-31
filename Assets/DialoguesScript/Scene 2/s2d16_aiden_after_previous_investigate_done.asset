@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: s2d16_aiden_after_previous_investigate_done
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 847f487d-1fc8-437a-88cd-ba0dda6e1173
+    BasePortName: Output
+    TargetCardGuid: 8217e70b-2155-4b29-b377-1922f07e5bb0
+    TargetPortName: Input
+  - BaseCardGuid: 8217e70b-2155-4b29-b377-1922f07e5bb0
+    BasePortName: Continue
+    TargetCardGuid: 4336b3fb-b983-4e75-b120-052ce45dd2c8
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 847f487d-1fc8-437a-88cd-ba0dda6e1173
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 8217e70b-2155-4b29-b377-1922f07e5bb0
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: ddd2565b-133a-4de7-8c55-8bde5ce8ada0
+      Texts:
+      - Name: 1
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 2
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 3
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 4
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 5
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 6
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 7
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 8
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 9
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      - Name: 10
+        Value: "I don\u2019t think there\u2019s much more in here. I need to call
+          the headquarters and inform them about what I found here."
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 4336b3fb-b983-4e75-b120-052ce45dd2c8
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1
