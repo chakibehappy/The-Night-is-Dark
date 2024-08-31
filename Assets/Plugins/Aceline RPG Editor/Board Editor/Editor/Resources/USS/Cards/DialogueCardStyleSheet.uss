@@ -1,0 +1,106 @@
+
+.node #title #title-label{
+	color: white;
+}
+
+.TopBox{
+	flex-direction: row;
+}
+
+.MenuToolbarButton{
+	background-color : rgba(0,0,0,0);
+	border-width : 0px;
+	color:white;
+}
+
+.ChoiceButton{
+	background-color : rgba(0,0,0,0);
+	border-width : 0px;
+	color:yellow;
+}
+
+.LabelText{
+	margin-top : 2px;
+	margin-left : 5px;
+	font-size: 13px;
+}
+
+
+.DialogueText{
+	color: #7fd6fd;
+}
+.TextBtn{
+	margin-left:auto;
+}
+.TextBox{
+	width:260px;
+	white-space: normal;
+
+}
+
+.BoxRow{
+	flex-direction: row;
+}
+
+/* ----------------- Name -----------------*/
+.NameColor{
+	color: #54ae71;
+
+}
+.CharacterName{
+	width:260px;
+	white-space: normal;
+}
+
+
+/* ----------------- Images -----------------*/
+.ImageColor{
+	color: #54ae71;
+
+}
+
+.ImagePreviewRight{
+	padding-right : 5px;
+	margin-left:auto;
+}
+
+.ImagePreviewLeft{
+	padding-left : 5px;
+	margin-right:auto;
+}
+
+.ImagePreview{
+	max-height:	120px;
+	max-width:	120px;
+}
+
+.SpriteRight{
+	margin-left:auto;
+	width:	120px;
+}
+
+.SpriteLeft{
+	margin-right:auto;
+	width:	120px;
+}
+
+.PortName{
+	display:none;
+}
+
+.ArrowButtonUp
+{
+	background-color:rgba(0,0,0,0);
+	border-width:0;
+	height:5px;
+	width:5px;
+}
+
+.ArrowButtonDown
+{
+	margin-top:1px;
+	background-color:rgba(0,0,0,0);
+	border-width:0;
+	height:5px;
+	width:5px;
+}

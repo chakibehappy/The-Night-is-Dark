@@ -1,0 +1,17 @@
+.node #title
+{
+	background-color: #B89000;
+}
+
+.node #title #title-label{
+	color: white;
+}
+
+.branchTopMenuButton{
+	background-color: #B89000;
+	color: white;
+}
+
+.enumHide{
+	width: 70px;
+}

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: test dialogue 2
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 77824fd9-9676-4c48-b887-346c54b66dcd
+    BasePortName: Output
+    TargetCardGuid: 65f22bde-9e9d-4f6e-af4e-a211b9f8d569
+    TargetPortName: Input
+  - BaseCardGuid: 65f22bde-9e9d-4f6e-af4e-a211b9f8d569
+    BasePortName: Continue
+    TargetCardGuid: 417a0b7a-d297-4092-8867-1820bdc9cb4b
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 77824fd9-9676-4c48-b887-346c54b66dcd
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 65f22bde-9e9d-4f6e-af4e-a211b9f8d569
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Chaki
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Chi
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: recov
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: dd7f4025-7bd2-49ad-b9b5-bb2a5212a5c3
+      Texts:
+      - Name: 1
+        Value: Hello Chi and Recov
+      - Name: 2
+        Value: Hello Chi and Recov
+      - Name: 3
+        Value: Hello Chi and Recov
+      - Name: 4
+        Value: Hello Chi and Recov
+      - Name: 5
+        Value: Hello Chi and Recov
+      - Name: 6
+        Value: Hello Chi and Recov
+      - Name: 7
+        Value: Hello Chi and Recov
+      - Name: 8
+        Value: Hello Chi and Recov
+      - Name: 9
+        Value: Hello Chi and Recov
+      - Name: 10
+        Value: Hello Chi and Recov
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 995189f2-fedc-4d91-9789-5963f95ba051
+      Texts:
+      - Name: 1
+        Value: Hello chaki
+      - Name: 2
+        Value: Hello chaki
+      - Name: 3
+        Value: Hello chaki
+      - Name: 4
+        Value: Hello chaki
+      - Name: 5
+        Value: Hello chaki
+      - Name: 6
+        Value: Hello chaki
+      - Name: 7
+        Value: Hello chaki
+      - Name: 8
+        Value: Hello chaki
+      - Name: 9
+        Value: Hello chaki
+      - Name: 10
+        Value: Hello chaki
+      AudioClips: []
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 29af07f9-af31-4570-af1c-2bec409a8ddb
+      Texts:
+      - Name: 1
+        Value: Hey Dude!
+      - Name: 2
+        Value: Hey Dude!
+      - Name: 3
+        Value: Hey Dude!
+      - Name: 4
+        Value: Hey Dude!
+      - Name: 5
+        Value: Hey Dude!
+      - Name: 6
+        Value: Hey Dude!
+      - Name: 7
+        Value: Hey Dude!
+      - Name: 8
+        Value: Hey Dude!
+      - Name: 9
+        Value: Hey Dude!
+      - Name: 10
+        Value: Hey Dude!
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 417a0b7a-d297-4092-8867-1820bdc9cb4b
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

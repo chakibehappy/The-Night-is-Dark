@@ -1,0 +1,15 @@
+# save the file to .aceline, and also you can open this file using any text editor
+# use this (#) for commenting
+# after ':' mean names!
+
+Police A: Good morning Detective.
+Detective: Good Morning Officer!
+Police A: This is simple linear dialogue test
+Detective: Oh okay, so how if i want to add new linebreak to sentences
+Police A:
+You just do it
+Simply like this
+But i guess it's need line limit anyway
+Detective: OK, thank you officer
+
+--goto end

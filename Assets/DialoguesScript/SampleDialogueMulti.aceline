@@ -1,0 +1,28 @@
+Aiden Hayes: Good afternoon. I’m Detective Aiden Hayes and I’m investigating the homicide case of your wife, Connie Matthews.
+Tyler Matthews: Hello detective…
+Aiden Hayes: I’ll ask you a few questions if you don’t mind.
+Tyler Matthews: Sure.
+
+--open choice
+1-- Where were you yesterday at 5pm? 
+2-- When was the last time you met the victim?
+--close choice
+
+--continue choice 1
+Tyler Matthews: I was at my mother’s house. I moved there a few days ago…
+Aiden Hayes: Why did you move out?
+Tyler Matthews: Because Connie was cheating on me. I couldn’t stand being with her in the same place after she betrayed me like that…
+Aiden Hayes: I see…
+Tyler Matthews: I know what you think, but it wasn’t me. My mother can confirm, I came back from work straight to her place.
+Aiden Hayes: We’ll check that.
+--goto back
+
+
+--continue choice 2
+Tyler Matthews: It was 5 days ago. I was packing for a business trip and I found a box with pictures of her and some man. I confronted her about it and she admitted she had an affair. I moved out the same day.
+Aiden Hayes: How did you react to the news?
+Tyler Matthews: I wasn’t violent if you’re suggesting that. I was just disappointed and sad honestly. I didn’t expect her to do something like that.
+Aiden Hayes: So you say you were all calm and composed?
+Tyler Matthews: You won’t make me confess to something I didn’t do. No, I wasn’t calm and composed, but I didn’t use any violence or force on her. We argued that’s true, but I just left after and never came back. 
+Aiden Hayes: I see.
+--goto end

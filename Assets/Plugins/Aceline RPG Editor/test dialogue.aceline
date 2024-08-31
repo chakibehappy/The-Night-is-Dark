@@ -1,0 +1,50 @@
+# Dialogue
+# after ':' mean names!
+# after 'img.' mean images names on resources folder Characters
+
+img-r.police
+Police A: Good morning Detective.
+img-l.detective
+Detective :Good Morning Officer!
+
+--open choice
+1-- How are the situations? 
+2-- Do we know the victim?
+3-- Who’s the suspect?
+4-- Thank you for the information
+--close choice
+
+--continue choice 1
+img-r.police
+Police A:
+We just got here around 30 minutes ago, coroner still checking in and out.
+The victim died because losing blood i guess being stabbed with knife or something several times on his stomach. 
+img-l.detective
+Detective : 
+Yeah it looks so bad, and also his body looks already rotten too.
+img-r.police
+Police A : Well that’s just his skin not because its rotten or something. 
+img-l.detective
+Detective : Hmmmh, yeah foreigners do have strange skin. 
+--goto back
+
+
+--continue choice 2
+img-r.police
+Police A : 
+The victim’s name is Dave, 25 y.o , known as one of regular of Pizza Place, and currently unemployed
+His girlfriend works at Pizza Place, she’s the one who calls us.
+She’s in the store by now, if you want to ask her a couple of questions.
+--goto end
+
+--continue choice 3
+img-r.police
+Police A :
+We got a guy over there named Jake, and he is a Pizza Truck Driver. We found him asleep on the truck with a knife covered with blood next to him.
+We’re still asking him, but as far as we got this guy knows nothing about the events, might be drunk I say.
+--goto start
+
+
+--continue choice 4
+Police A : No problem.
+--goto end

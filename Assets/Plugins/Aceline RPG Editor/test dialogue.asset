@@ -1,0 +1,1091 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: test dialogue
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 400d724d-2257-4ee9-a767-9439f40eceab
+    BasePortName: Output
+    TargetCardGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    TargetPortName: Input
+  - BaseCardGuid: 1ac0f89a-e4b4-4ed5-b740-1841802f9aad
+    BasePortName: Output
+    TargetCardGuid: c779bdb1-3151-41c9-b706-53a70bf842af
+    TargetPortName: Input
+  - BaseCardGuid: 682eb093-b910-4ec2-9deb-513431739676
+    BasePortName: Output
+    TargetCardGuid: ba2eb1c0-ffe6-4f11-a954-bab25e831bbe
+    TargetPortName: Input
+  - BaseCardGuid: bdfd6f76-a6d7-450b-ad1c-57f49af384d9
+    BasePortName: Output
+    TargetCardGuid: cdf5651d-0ace-42b5-997c-11551c93fa56
+    TargetPortName: Input
+  - BaseCardGuid: 841f27ac-e6c2-4d17-8fda-cd2dc1c71f52
+    BasePortName: Output
+    TargetCardGuid: c827e83b-100d-4504-b177-159b3ef56afa
+    TargetPortName: Input
+  - BaseCardGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    BasePortName: 37d85252-edbc-4759-a7b8-6c67ce0c578e
+    TargetCardGuid: 1ac0f89a-e4b4-4ed5-b740-1841802f9aad
+    TargetPortName: Input
+  - BaseCardGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    BasePortName: b957a13e-170a-48eb-b42e-9c8b3a3e7880
+    TargetCardGuid: 682eb093-b910-4ec2-9deb-513431739676
+    TargetPortName: Input
+  - BaseCardGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    BasePortName: 7c9e62be-2cf2-47c1-9b00-8491c73abe5c
+    TargetCardGuid: bdfd6f76-a6d7-450b-ad1c-57f49af384d9
+    TargetPortName: Input
+  - BaseCardGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    BasePortName: 7832166a-6984-43c7-b733-a84969b7b1c9
+    TargetCardGuid: 841f27ac-e6c2-4d17-8fda-cd2dc1c71f52
+    TargetPortName: Input
+  - BaseCardGuid: c779bdb1-3151-41c9-b706-53a70bf842af
+    BasePortName: Continue
+    TargetCardGuid: a0644fa1-3541-4437-8064-40e84b62aadd
+    TargetPortName: Input
+  - BaseCardGuid: ba2eb1c0-ffe6-4f11-a954-bab25e831bbe
+    BasePortName: Continue
+    TargetCardGuid: e6d28524-7db7-4835-a1b3-6caa3faba907
+    TargetPortName: Input
+  - BaseCardGuid: cdf5651d-0ace-42b5-997c-11551c93fa56
+    BasePortName: Continue
+    TargetCardGuid: 6b8cb632-f649-4a47-9338-09a53d6e6cdf
+    TargetPortName: Input
+  - BaseCardGuid: c827e83b-100d-4504-b177-159b3ef56afa
+    BasePortName: Continue
+    TargetCardGuid: c0920f24-8519-42eb-bbc2-96d479067363
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 400d724d-2257-4ee9-a767-9439f40eceab
+    Position: {x: 100, y: 350.40002}
+  DialogueDatas:
+  - CardGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    Position: {x: 450.4, y: 350.40002}
+    Names:
+    - ID:
+        Value: 1
+      CharacterName:
+        Value: Police A
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Detective
+    Dialogues:
+    - ID:
+        Value: 2
+      GuidID:
+        Value: 3ba23174-42d6-4576-afcc-315ed0b49f89
+      Texts:
+      - Name: 1
+        Value: Good morning Detective.
+      - Name: 2
+        Value: Good morning Detective.
+      - Name: 3
+        Value: Good morning Detective.
+      - Name: 4
+        Value: Good morning Detective.
+      - Name: 5
+        Value: Good morning Detective.
+      - Name: 6
+        Value: Good morning Detective.
+      - Name: 7
+        Value: Good morning Detective.
+      - Name: 8
+        Value: Good morning Detective.
+      - Name: 9
+        Value: Good morning Detective.
+      - Name: 10
+        Value: Good morning Detective.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 67d8353f-ce30-43dd-b9f1-b13f5c9cf1e1
+      Texts:
+      - Name: 1
+        Value: Good Morning Officer!
+      - Name: 2
+        Value: Good Morning Officer!
+      - Name: 3
+        Value: Good Morning Officer!
+      - Name: 4
+        Value: Good Morning Officer!
+      - Name: 5
+        Value: Good Morning Officer!
+      - Name: 6
+        Value: Good Morning Officer!
+      - Name: 7
+        Value: Good Morning Officer!
+      - Name: 8
+        Value: Good Morning Officer!
+      - Name: 9
+        Value: Good Morning Officer!
+      - Name: 10
+        Value: Good Morning Officer!
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images:
+    - ID:
+        Value: 0
+      LeftSprite:
+        Value: {fileID: 0}
+      RightSprite:
+        Value: {fileID: 21300000, guid: 00b667324cae05a47996359867827e7f, type: 3}
+    - ID:
+        Value: 3
+      LeftSprite:
+        Value: {fileID: 21300000, guid: 26c2027679665a04db1baa5dd0458f2c, type: 3}
+      RightSprite:
+        Value: {fileID: 0}
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: 37d85252-edbc-4759-a7b8-6c67ce0c578e
+      InputGuid: 1ac0f89a-e4b4-4ed5-b740-1841802f9aad
+      OutputGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    - ID:
+        Value: 0
+      PortGuid: b957a13e-170a-48eb-b42e-9c8b3a3e7880
+      InputGuid: 682eb093-b910-4ec2-9deb-513431739676
+      OutputGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    - ID:
+        Value: 0
+      PortGuid: 7c9e62be-2cf2-47c1-9b00-8491c73abe5c
+      InputGuid: bdfd6f76-a6d7-450b-ad1c-57f49af384d9
+      OutputGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+    - ID:
+        Value: 0
+      PortGuid: 7832166a-6984-43c7-b733-a84969b7b1c9
+      InputGuid: 841f27ac-e6c2-4d17-8fda-cd2dc1c71f52
+      OutputGuid: 2a145be4-b48e-40e5-957d-0d043c9ae535
+  - CardGuid: c779bdb1-3151-41c9-b706-53a70bf842af
+    Position: {x: 1150.4, y: 350.40002}
+    Names:
+    - ID:
+        Value: 1
+      CharacterName:
+        Value: Police A
+    - ID:
+        Value: 5
+      CharacterName:
+        Value: Detective
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: Police A
+    - ID:
+        Value: 11
+      CharacterName:
+        Value: Detective
+    Dialogues:
+    - ID:
+        Value: 2
+      GuidID:
+        Value: 09ecdf84-6db6-467f-95d2-45a2d53e827f
+      Texts:
+      - Name: 1
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 2
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 3
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 4
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 5
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 6
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 7
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 8
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 9
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      - Name: 10
+        Value: We just got here around 30 minutes ago, coroner still checking in
+          and out.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 49a61751-a523-4561-9980-9e2ec2144c7c
+      Texts:
+      - Name: 1
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 2
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 3
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 4
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 5
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 6
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 7
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 8
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 9
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      - Name: 10
+        Value: The victim died because losing blood i guess being stabbed with knife
+          or something several times on his stomach.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 6
+      GuidID:
+        Value: efb3b33c-5e85-411f-b09b-c6caf47955f1
+      Texts:
+      - Name: 1
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 2
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 3
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 4
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 5
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 6
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 7
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 8
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 9
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      - Name: 10
+        Value: Yeah it looks so bad, and also his body looks already rotten too.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 098dc928-54d5-4289-ab83-727a54d31e1b
+      Texts:
+      - Name: 1
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 2
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 3
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 4
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 5
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 6
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 7
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 8
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 9
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      - Name: 10
+        Value: "Well that\u2019s just his skin not because its rotten or something."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 12
+      GuidID:
+        Value: 860d32ea-b4d1-4996-b93d-f1a7462f444d
+      Texts:
+      - Name: 1
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 2
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 3
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 4
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 5
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 6
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 7
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 8
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 9
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      - Name: 10
+        Value: Hmmmh, yeah foreigners do have strange skin.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images:
+    - ID:
+        Value: 0
+      LeftSprite:
+        Value: {fileID: 0}
+      RightSprite:
+        Value: {fileID: 21300000, guid: 00b667324cae05a47996359867827e7f, type: 3}
+    - ID:
+        Value: 4
+      LeftSprite:
+        Value: {fileID: 21300000, guid: 26c2027679665a04db1baa5dd0458f2c, type: 3}
+      RightSprite:
+        Value: {fileID: 0}
+    - ID:
+        Value: 7
+      LeftSprite:
+        Value: {fileID: 0}
+      RightSprite:
+        Value: {fileID: 21300000, guid: 00b667324cae05a47996359867827e7f, type: 3}
+    - ID:
+        Value: 10
+      LeftSprite:
+        Value: {fileID: 21300000, guid: 26c2027679665a04db1baa5dd0458f2c, type: 3}
+      RightSprite:
+        Value: {fileID: 0}
+    Ports: []
+  - CardGuid: ba2eb1c0-ffe6-4f11-a954-bab25e831bbe
+    Position: {x: 1500, y: 650.4}
+    Names:
+    - ID:
+        Value: 1
+      CharacterName:
+        Value: Police A
+    Dialogues:
+    - ID:
+        Value: 2
+      GuidID:
+        Value: 1283ab15-cfa1-43a2-9659-a03bf06b425d
+      Texts:
+      - Name: 1
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 2
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 3
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 4
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 5
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 6
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 7
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 8
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 9
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      - Name: 10
+        Value: "The victim\u2019s name is Dave, 25 y.o , known as one of regular
+          of Pizza Place, and currently unemployed"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: de6b5373-ebac-46d7-8246-e561cbc6d170
+      Texts:
+      - Name: 1
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 2
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 3
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 4
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 5
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 6
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 7
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 8
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 9
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      - Name: 10
+        Value: "His girlfriend works at Pizza Place, she\u2019s the one who calls
+          us."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 4
+      GuidID:
+        Value: a890e3fd-0ee8-456d-b348-f8a114f0687a
+      Texts:
+      - Name: 1
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 2
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 3
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 4
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 5
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 6
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 7
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 8
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 9
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      - Name: 10
+        Value: "She\u2019s in the store by now, if you want to ask her a couple of
+          questions."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images:
+    - ID:
+        Value: 0
+      LeftSprite:
+        Value: {fileID: 0}
+      RightSprite:
+        Value: {fileID: 21300000, guid: 00b667324cae05a47996359867827e7f, type: 3}
+    Ports: []
+  - CardGuid: cdf5651d-0ace-42b5-997c-11551c93fa56
+    Position: {x: 1850.4, y: 950.4}
+    Names:
+    - ID:
+        Value: 1
+      CharacterName:
+        Value: Police A
+    Dialogues:
+    - ID:
+        Value: 2
+      GuidID:
+        Value: ec3ee644-5d15-4bb9-b0e3-e8f0d61409ce
+      Texts:
+      - Name: 1
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 2
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 3
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 4
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 5
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 6
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 7
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 8
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 9
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      - Name: 10
+        Value: We got a guy over there named Jake, and he is a Pizza Truck Driver.
+          We found him asleep on the truck with a knife covered with blood next to
+          him.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 636d23a0-60c7-4bdc-acb8-0775f76eb0d3
+      Texts:
+      - Name: 1
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 2
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 3
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 4
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 5
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 6
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 7
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 8
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 9
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      - Name: 10
+        Value: "We\u2019re still asking him, but as far as we got this guy knows
+          nothing about the events, might be drunk I say."
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images:
+    - ID:
+        Value: 0
+      LeftSprite:
+        Value: {fileID: 0}
+      RightSprite:
+        Value: {fileID: 21300000, guid: 00b667324cae05a47996359867827e7f, type: 3}
+    Ports: []
+  - CardGuid: c827e83b-100d-4504-b177-159b3ef56afa
+    Position: {x: 2200, y: 1250.3999}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Police A
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 20d0e9b7-f91d-4de4-a995-26a27b3c88f6
+      Texts:
+      - Name: 1
+        Value: No problem.
+      - Name: 2
+        Value: No problem.
+      - Name: 3
+        Value: No problem.
+      - Name: 4
+        Value: No problem.
+      - Name: 5
+        Value: No problem.
+      - Name: 6
+        Value: No problem.
+      - Name: 7
+        Value: No problem.
+      - Name: 8
+        Value: No problem.
+      - Name: 9
+        Value: No problem.
+      - Name: 10
+        Value: No problem.
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports: []
+  ChoiceDatas:
+  - CardGuid: 1ac0f89a-e4b4-4ed5-b740-1841802f9aad
+    Position: {x: 800, y: 350.40002}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: How are the situations?
+    - Name: 2
+      Value: How are the situations?
+    - Name: 3
+      Value: How are the situations?
+    - Name: 4
+      Value: How are the situations?
+    - Name: 5
+      Value: How are the situations?
+    - Name: 6
+      Value: How are the situations?
+    - Name: 7
+      Value: How are the situations?
+    - Name: 8
+      Value: How are the situations?
+    - Name: 9
+      Value: How are the situations?
+    - Name: 10
+      Value: How are the situations?
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: 682eb093-b910-4ec2-9deb-513431739676
+    Position: {x: 800, y: 500}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Do we know the victim?
+    - Name: 2
+      Value: Do we know the victim?
+    - Name: 3
+      Value: Do we know the victim?
+    - Name: 4
+      Value: Do we know the victim?
+    - Name: 5
+      Value: Do we know the victim?
+    - Name: 6
+      Value: Do we know the victim?
+    - Name: 7
+      Value: Do we know the victim?
+    - Name: 8
+      Value: Do we know the victim?
+    - Name: 9
+      Value: Do we know the victim?
+    - Name: 10
+      Value: Do we know the victim?
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: bdfd6f76-a6d7-450b-ad1c-57f49af384d9
+    Position: {x: 800, y: 650.4}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: "Who\u2019s the suspect?"
+    - Name: 2
+      Value: "Who\u2019s the suspect?"
+    - Name: 3
+      Value: "Who\u2019s the suspect?"
+    - Name: 4
+      Value: "Who\u2019s the suspect?"
+    - Name: 5
+      Value: "Who\u2019s the suspect?"
+    - Name: 6
+      Value: "Who\u2019s the suspect?"
+    - Name: 7
+      Value: "Who\u2019s the suspect?"
+    - Name: 8
+      Value: "Who\u2019s the suspect?"
+    - Name: 9
+      Value: "Who\u2019s the suspect?"
+    - Name: 10
+      Value: "Who\u2019s the suspect?"
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: 841f27ac-e6c2-4d17-8fda-cd2dc1c71f52
+    Position: {x: 800, y: 800}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Thank you for the information
+    - Name: 2
+      Value: Thank you for the information
+    - Name: 3
+      Value: Thank you for the information
+    - Name: 4
+      Value: Thank you for the information
+    - Name: 5
+      Value: Thank you for the information
+    - Name: 6
+      Value: Thank you for the information
+    - Name: 7
+      Value: Thank you for the information
+    - Name: 8
+      Value: Thank you for the information
+    - Name: 9
+      Value: Thank you for the information
+    - Name: 10
+      Value: Thank you for the information
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: a0644fa1-3541-4437-8064-40e84b62aadd
+    Position: {x: 1500, y: 250.40001}
+    EndState:
+      Value: 3
+  - CardGuid: e6d28524-7db7-4835-a1b3-6caa3faba907
+    Position: {x: 1850.4, y: 550.4}
+    EndState:
+      Value: 1
+  - CardGuid: 6b8cb632-f649-4a47-9338-09a53d6e6cdf
+    Position: {x: 2200, y: 850.4}
+    EndState:
+      Value: 4
+  - CardGuid: c0920f24-8519-42eb-bbc2-96d479067363
+    Position: {x: 2550.4, y: 1150.3999}
+    EndState:
+      Value: 1

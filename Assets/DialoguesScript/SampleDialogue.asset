@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: SampleDialogue
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 3c4c955c-eb9f-4baa-ba87-2214aa05db79
+    BasePortName: Output
+    TargetCardGuid: 917f5c66-b288-4854-84e8-5f7c8c89eb99
+    TargetPortName: Input
+  - BaseCardGuid: 917f5c66-b288-4854-84e8-5f7c8c89eb99
+    BasePortName: Continue
+    TargetCardGuid: 154c73ba-b934-4971-aa41-f25ff715a136
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 3c4c955c-eb9f-4baa-ba87-2214aa05db79
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: 917f5c66-b288-4854-84e8-5f7c8c89eb99
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 10
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 12
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 14
+      CharacterName:
+        Value: Georgia Turner
+    - ID:
+        Value: 16
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 18
+      CharacterName:
+        Value: Georgia Turner
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 928978c2-a4b3-4e25-a9b3-c2245aeee7af
+      Texts:
+      - Name: 1
+        Value: Good afternoon.
+      - Name: 2
+        Value: Good afternoon.
+      - Name: 3
+        Value: Good afternoon.
+      - Name: 4
+        Value: Good afternoon.
+      - Name: 5
+        Value: Good afternoon.
+      - Name: 6
+        Value: Good afternoon.
+      - Name: 7
+        Value: Good afternoon.
+      - Name: 8
+        Value: Good afternoon.
+      - Name: 9
+        Value: Good afternoon.
+      - Name: 10
+        Value: Good afternoon.
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 7f7ea001-7c4c-4874-bafc-7398da6de2a1
+      Texts:
+      - Name: 1
+        Value: Good afternoon Officer.
+      - Name: 2
+        Value: Good afternoon Officer.
+      - Name: 3
+        Value: Good afternoon Officer.
+      - Name: 4
+        Value: Good afternoon Officer.
+      - Name: 5
+        Value: Good afternoon Officer.
+      - Name: 6
+        Value: Good afternoon Officer.
+      - Name: 7
+        Value: Good afternoon Officer.
+      - Name: 8
+        Value: Good afternoon Officer.
+      - Name: 9
+        Value: Good afternoon Officer.
+      - Name: 10
+        Value: Good afternoon Officer.
+      AudioClips: []
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 5782a22c-c7c3-4278-8d06-71abcd3427c9
+      Texts:
+      - Name: 1
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 2
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 3
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 4
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 5
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 6
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 7
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 8
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 9
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      - Name: 10
+        Value: "My name is Aiden Hayes, I\u2019m a detective from the Police Department.
+          You were the one who called the police, right?"
+      AudioClips: []
+    - ID:
+        Value: 7
+      GuidID:
+        Value: 20944260-d015-4a07-9b0d-f6746ed74496
+      Texts:
+      - Name: 1
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 2
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 3
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 4
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 5
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 6
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 7
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 8
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 9
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      - Name: 10
+        Value: "Yes, I heard some arguments and something like a scream. I got concerned,
+          it\u2019s a nice neighborhood, everyone is so polite, you don\u2019t experience
+          arguments on the floor that much."
+      AudioClips: []
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 69db4b85-c70c-4a48-86b9-fda1b3c2e2e4
+      Texts:
+      - Name: 1
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 2
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 3
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 4
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 5
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 6
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 7
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 8
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 9
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      - Name: 10
+        Value: Hmm, I see. Did you see anything weird or uncommon recently?
+      AudioClips: []
+    - ID:
+        Value: 11
+      GuidID:
+        Value: a2df1572-b0fb-4cad-9c6d-a2aa9e56ee1f
+      Texts:
+      - Name: 1
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 2
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 3
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 4
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 5
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 6
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 7
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 8
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 9
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      - Name: 10
+        Value: "Well, this young lady Connie\u2026 She has a lover, you know? And
+          she\u2019s married too! Such a\u2026 ehh. She got what she deserved for
+          cheating on her husband."
+      AudioClips: []
+    - ID:
+        Value: 13
+      GuidID:
+        Value: 1adba507-177b-4808-ac8e-38dae12f29c6
+      Texts:
+      - Name: 1
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 2
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 3
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 4
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 5
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 6
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 7
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 8
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 9
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      - Name: 10
+        Value: A lover you say? Do you know his name? And what is the name of the
+          husband?
+      AudioClips: []
+    - ID:
+        Value: 15
+      GuidID:
+        Value: 6cbfd49b-0531-4eaf-bebc-938eaeca2ac6
+      Texts:
+      - Name: 1
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 2
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 3
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 4
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 5
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 6
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 7
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 8
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 9
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      - Name: 10
+        Value: "Oh God forbid! I do not know that bastard\u2019s name. Her husband
+          though, it\u2019s Tyler Matthews. Such a good man, I wish my grandaughter
+          had a husband like him instead of that lazy leech\u2026"
+      AudioClips: []
+    - ID:
+        Value: 17
+      GuidID:
+        Value: 3e20aa9a-e45d-4264-b9cb-0387e31c3a6e
+      Texts:
+      - Name: 1
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 2
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 3
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 4
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 5
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 6
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 7
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 8
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 9
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      - Name: 10
+        Value: "Okay thank you. Here\u2019s my business card, if you remember anything
+          more, give me a call."
+      AudioClips: []
+    - ID:
+        Value: 19
+      GuidID:
+        Value: 65169c5b-ec34-4c93-8ac1-b191e21ce733
+      Texts:
+      - Name: 1
+        Value: Alright, thank you.
+      - Name: 2
+        Value: Alright, thank you.
+      - Name: 3
+        Value: Alright, thank you.
+      - Name: 4
+        Value: Alright, thank you.
+      - Name: 5
+        Value: Alright, thank you.
+      - Name: 6
+        Value: Alright, thank you.
+      - Name: 7
+        Value: Alright, thank you.
+      - Name: 8
+        Value: Alright, thank you.
+      - Name: 9
+        Value: Alright, thank you.
+      - Name: 10
+        Value: Alright, thank you.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 154c73ba-b934-4971-aa41-f25ff715a136
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

@@ -1,0 +1,112 @@
+.node #title
+{
+	background-color: #6457A6;
+}
+
+#node-border{
+	background-color: rgb(30,30,30);
+}
+
+.eventTopMenuButton
+{
+	background-color: rgba(29,115,57,1);
+	border-width : 0px;
+}
+
+.DataField
+{
+	width:100px;
+}
+
+.DataTypeOption
+{
+	color:white;
+	background-color:#515151;
+	margin:2px;
+	padding:4px;
+	border-radius:3px;
+}
+
+.branchTopMenuButton
+{
+	background-color: #6457A6;
+	border-width : 0px;
+	color:white;
+}
+
+.Label
+{
+	margin-top: 5px;
+	margin-left: 4px;
+	font-size: 12px;
+}
+
+.AddButton
+{
+	background-color: rgb(30,30,30);
+}
+
+.InputNumber
+{
+	width:50px;
+}
+
+.InputText
+{
+	width:80px;
+	white-space: normal;
+}
+
+.DeleteButton
+{
+	padding-bottom:0px;
+	width:18px;
+	border-radius:8px;
+	background-color: rgb(150,120,0);
+	color : rgb(255,255,255);
+	-unity-font-style : bold;	
+	margin-left:auto;
+}
+
+.faceImagePreview
+{
+	width:200px;
+	max-height:200px;
+	margin:auto;
+}
+
+
+.eventBox
+{
+	flex-direction : row;
+}
+
+.eventTextField
+{
+	width : 150px;
+}
+
+.eventIntField
+{
+	width : 45px;
+}
+
+.eventObjectField
+{
+	width : 201px;
+}
+
+.eventDeleteButton
+{
+	padding-bottom:0px;
+	width:18px;
+	border-radius:8px;
+	background-color: rgb(150,120,0);
+	color : rgb(255,255,255);
+	-unity-font-style : bold;
+}
+
+.branchBox
+{
+	flex-direction : row;
+}

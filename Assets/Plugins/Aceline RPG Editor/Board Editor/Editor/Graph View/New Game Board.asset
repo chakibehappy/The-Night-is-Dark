@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: New Game Board
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 58eab527-a44f-428e-bd32-1e59ce6e1bb1
+    BasePortName: Output
+    TargetCardGuid: 1b298d6e-5eae-47ea-8784-532efc3ebb84
+    TargetPortName: Input
+  - BaseCardGuid: eb40bc83-700d-4a71-a668-643c87dba588
+    BasePortName: Output
+    TargetCardGuid: a5b139a0-eb50-44dd-8b6f-244ce9adf4b2
+    TargetPortName: Input
+  - BaseCardGuid: a5b139a0-eb50-44dd-8b6f-244ce9adf4b2
+    BasePortName: False
+    TargetCardGuid: 14ebffde-7475-4a8e-9ba5-103dfb2af1ae
+    TargetPortName: Input
+  - BaseCardGuid: a5b139a0-eb50-44dd-8b6f-244ce9adf4b2
+    BasePortName: True
+    TargetCardGuid: c10fdba9-32aa-4494-95ad-91390237407c
+    TargetPortName: Input
+  - BaseCardGuid: a6e3ed41-d693-48c8-915d-4eb2f78d88c2
+    BasePortName: Output
+    TargetCardGuid: eb40bc83-700d-4a71-a668-643c87dba588
+    TargetPortName: Input
+  - BaseCardGuid: 60cb6ff0-a69a-42db-be93-60a75b807e2e
+    BasePortName: Output
+    TargetCardGuid: eb40bc83-700d-4a71-a668-643c87dba588
+    TargetPortName: Input
+  - BaseCardGuid: 1b298d6e-5eae-47ea-8784-532efc3ebb84
+    BasePortName: 6aa230bb-6127-4fc2-a60f-b001ba4aa2b5
+    TargetCardGuid: a6e3ed41-d693-48c8-915d-4eb2f78d88c2
+    TargetPortName: Input
+  - BaseCardGuid: 1b298d6e-5eae-47ea-8784-532efc3ebb84
+    BasePortName: 40f979c0-e472-438a-9cf8-2a9e906e7bc8
+    TargetCardGuid: 60cb6ff0-a69a-42db-be93-60a75b807e2e
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 58eab527-a44f-428e-bd32-1e59ce6e1bb1
+    Position: {x: -142.4, y: 87.2}
+  DialogueDatas:
+  - CardGuid: 1b298d6e-5eae-47ea-8784-532efc3ebb84
+    Position: {x: -0.8, y: 88}
+    Names:
+    - ID:
+        Value: 1
+      CharacterName:
+        Value: Girl
+    Dialogues:
+    - ID:
+        Value: 0
+      GuidID:
+        Value: a39cb78f-8c53-4687-9748-f30112b5eec3
+      Texts:
+      - Name: 1
+        Value: This is Sentences 1
+      - Name: 2
+        Value: "Dies sind S\xE4tze 1"
+      - Name: 3
+        Value: Estas son oraciones 1
+      - Name: 4
+        Value: Ini adalah kalimat 1
+      - Name: 5
+        Value: "Dette er s\xE6tninger 1"
+      - Name: 6
+        Value: Ce sont des phrases 1
+      - Name: 7
+        Value: "Questa \xE8 frasi 1"
+      - Name: 8
+        Value: Haec sententias I
+      - Name: 9
+        Value: "\u042D\u0442\u043E \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u044F
+          1"
+      - Name: 10
+        Value: "\u3053\u308C\u306F\u65871\u3067\u3059"
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 176c117e-b17b-4718-90c1-54ce732ab0be
+      Texts:
+      - Name: 1
+        Value: hi
+      - Name: 2
+        Value: 
+      - Name: 3
+        Value: 
+      - Name: 4
+        Value: 
+      - Name: 5
+        Value: 
+      - Name: 6
+        Value: 
+      - Name: 7
+        Value: 
+      - Name: 8
+        Value: 
+      - Name: 9
+        Value: 
+      - Name: 10
+        Value: 
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 4
+      GuidID:
+        Value: 19312b5e-7eef-4b4f-8903-9af0a4da9818
+      Texts:
+      - Name: 1
+        Value: 'hello
+
+          this is a long texts'
+      - Name: 2
+        Value: 
+      - Name: 3
+        Value: 
+      - Name: 4
+        Value: 
+      - Name: 5
+        Value: 
+      - Name: 6
+        Value: 
+      - Name: 7
+        Value: 
+      - Name: 8
+        Value: 
+      - Name: 9
+        Value: 
+      - Name: 10
+        Value: 
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images:
+    - ID:
+        Value: 2
+      LeftSprite:
+        Value: {fileID: 0}
+      RightSprite:
+        Value: {fileID: 21300000, guid: eac89b2f2512b314dab73863968faa96, type: 3}
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: 6aa230bb-6127-4fc2-a60f-b001ba4aa2b5
+      InputGuid: a6e3ed41-d693-48c8-915d-4eb2f78d88c2
+      OutputGuid: 1b298d6e-5eae-47ea-8784-532efc3ebb84
+    - ID:
+        Value: 0
+      PortGuid: 40f979c0-e472-438a-9cf8-2a9e906e7bc8
+      InputGuid: 60cb6ff0-a69a-42db-be93-60a75b807e2e
+      OutputGuid: 1b298d6e-5eae-47ea-8784-532efc3ebb84
+    - ID:
+        Value: 0
+      PortGuid: 42d2a305-a58c-456b-b6ec-2f297524227e
+      InputGuid: 
+      OutputGuid: 
+  ChoiceDatas:
+  - CardGuid: a6e3ed41-d693-48c8-915d-4eb2f78d88c2
+    Position: {x: 396.8, y: 32}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Is it being translated?
+    - Name: 2
+      Value: "Wird es \xFCbersetzt?"
+    - Name: 3
+      Value: "\xBFSe est\xE1 traduciendo?"
+    - Name: 4
+      Value: Apakah ini sedang diterjemahkan?
+    - Name: 5
+      Value: Bliver det oversat?
+    - Name: 6
+      Value: Est-il traduit?
+    - Name: 7
+      Value: Viene tradotto?
+    - Name: 8
+      Value: Numquid non translata?
+    - Name: 9
+      Value: "\u042D\u0442\u043E \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u0438\u0442\u0441\u044F?"
+    - Name: 10
+      Value: "\u7FFB\u8A33\u3055\u308C\u3066\u3044\u307E\u3059\u304B\uFF1F"
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions:
+    - Text:
+        Value: 
+      Value:
+        Value: 0
+      Condition:
+        Value: 9
+  - CardGuid: 60cb6ff0-a69a-42db-be93-60a75b807e2e
+    Position: {x: 377.6, y: 311.19998}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: What about this?
+    - Name: 2
+      Value: Was ist damit?
+    - Name: 3
+      Value: "\xBFY esto?"
+    - Name: 4
+      Value: Bagaimana dengan ini?
+    - Name: 5
+      Value: Hvad med det her?
+    - Name: 6
+      Value: "Et \xE7a?"
+    - Name: 7
+      Value: Che dire di questo?
+    - Name: 8
+      Value: Quid de hoc?
+    - Name: 9
+      Value: "\u041A\u0430\u043A \u043D\u0430\u0441\u0447\u0435\u0442 \u044D\u0442\u043E\u0433\u043E?"
+    - Name: 10
+      Value: "\u3053\u308C\u306F\u3069\u3046\u3067\u3059\u304B\uFF1F"
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions:
+    - Text:
+        Value: 
+      Value:
+        Value: 0
+      Condition:
+        Value: 1
+    - Text:
+        Value: 
+      Value:
+        Value: 0
+      Condition:
+        Value: 5
+  BranchDatas:
+  - CardGuid: a5b139a0-eb50-44dd-8b6f-244ce9adf4b2
+    Position: {x: 1204.8, y: 202.40001}
+    OptionTrueGuid: c10fdba9-32aa-4494-95ad-91390237407c
+    OptionFalseGuid: 14ebffde-7475-4a8e-9ba5-103dfb2af1ae
+    Conditions:
+    - Text:
+        Value: 
+      Value:
+        Value: 0
+      Condition:
+        Value: 6
+  EventDatas:
+  - CardGuid: eb40bc83-700d-4a71-a668-643c87dba588
+    Position: {x: 774.4, y: 227.2}
+    Modifiers:
+    - Text:
+        Value: 
+      Value:
+        Value: 0
+      Modifier:
+        Value: 1
+    EventCardSet:
+    - CardEvent: {fileID: 11400000, guid: 982c176660edaec45afdb582f78cb8b0, type: 2}
+  EndDatas:
+  - CardGuid: 14ebffde-7475-4a8e-9ba5-103dfb2af1ae
+    Position: {x: 1485.6, y: 338.4}
+    EndState:
+      Value: 4
+  - CardGuid: c10fdba9-32aa-4494-95ad-91390237407c
+    Position: {x: 1506.4, y: 161.6}
+    EndState:
+      Value: 1

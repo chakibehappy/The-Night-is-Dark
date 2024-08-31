@@ -1,0 +1,721 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: SampleDialogueMulti
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: f18f4b85-096a-4007-96ce-7dfca51304ef
+    BasePortName: c556b245-ea49-4ddb-9dc0-f6418e87bb34
+    TargetCardGuid: b6f97930-98e0-4477-86c2-ef12168cdf4b
+    TargetPortName: Input
+  - BaseCardGuid: f18f4b85-096a-4007-96ce-7dfca51304ef
+    BasePortName: 30eb4acc-ed4a-4c6b-85f4-0558308fae82
+    TargetCardGuid: f4b4ec71-966d-4fb9-b70f-c0651a77c859
+    TargetPortName: Input
+  - BaseCardGuid: 9f4c9b5e-c8c5-4cc3-a59f-ec5ac4e932c5
+    BasePortName: Output
+    TargetCardGuid: f18f4b85-096a-4007-96ce-7dfca51304ef
+    TargetPortName: Input
+  - BaseCardGuid: b6f97930-98e0-4477-86c2-ef12168cdf4b
+    BasePortName: Output
+    TargetCardGuid: 8797dfc6-fe74-4c04-8849-3640097c4fe5
+    TargetPortName: Input
+  - BaseCardGuid: 8797dfc6-fe74-4c04-8849-3640097c4fe5
+    BasePortName: Continue
+    TargetCardGuid: 3c6cd51e-019e-4c2f-91f5-897a9f7b05cd
+    TargetPortName: Input
+  - BaseCardGuid: f4b4ec71-966d-4fb9-b70f-c0651a77c859
+    BasePortName: Output
+    TargetCardGuid: 4bf6cdbc-6f60-4c2b-8a64-837582a01ac3
+    TargetPortName: Input
+  - BaseCardGuid: 4bf6cdbc-6f60-4c2b-8a64-837582a01ac3
+    BasePortName: Continue
+    TargetCardGuid: 3d364952-65d3-4a7c-b817-298ee54507fa
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 9f4c9b5e-c8c5-4cc3-a59f-ec5ac4e932c5
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: f18f4b85-096a-4007-96ce-7dfca51304ef
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Tyler Matthews
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Tyler Matthews
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 456785da-39b9-4d68-aed4-a3e89e28257e
+      Texts:
+      - Name: 1
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 2
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 3
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 4
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 5
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 6
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 7
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 8
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 9
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      - Name: 10
+        Value: "Good afternoon. I\u2019m Detective Aiden Hayes and I\u2019m investigating
+          the homicide case of your wife, Connie Matthews."
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: a1851d9e-5826-44d2-ba23-523d2ef89fdc
+      Texts:
+      - Name: 1
+        Value: "Hello detective\u2026"
+      - Name: 2
+        Value: "Hello detective\u2026"
+      - Name: 3
+        Value: "Hello detective\u2026"
+      - Name: 4
+        Value: "Hello detective\u2026"
+      - Name: 5
+        Value: "Hello detective\u2026"
+      - Name: 6
+        Value: "Hello detective\u2026"
+      - Name: 7
+        Value: "Hello detective\u2026"
+      - Name: 8
+        Value: "Hello detective\u2026"
+      - Name: 9
+        Value: "Hello detective\u2026"
+      - Name: 10
+        Value: "Hello detective\u2026"
+      AudioClips: []
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 5e9428b8-0487-48cc-8e5c-56101fc75ea0
+      Texts:
+      - Name: 1
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 2
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 3
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 4
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 5
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 6
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 7
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 8
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 9
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      - Name: 10
+        Value: "I\u2019ll ask you a few questions if you don\u2019t mind."
+      AudioClips: []
+    - ID:
+        Value: 7
+      GuidID:
+        Value: cef385dd-ef13-47c1-b62d-5e00b89ed686
+      Texts:
+      - Name: 1
+        Value: Sure.
+      - Name: 2
+        Value: Sure.
+      - Name: 3
+        Value: Sure.
+      - Name: 4
+        Value: Sure.
+      - Name: 5
+        Value: Sure.
+      - Name: 6
+        Value: Sure.
+      - Name: 7
+        Value: Sure.
+      - Name: 8
+        Value: Sure.
+      - Name: 9
+        Value: Sure.
+      - Name: 10
+        Value: Sure.
+      AudioClips: []
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: c556b245-ea49-4ddb-9dc0-f6418e87bb34
+      InputGuid: b6f97930-98e0-4477-86c2-ef12168cdf4b
+      OutputGuid: f18f4b85-096a-4007-96ce-7dfca51304ef
+    - ID:
+        Value: 0
+      PortGuid: 30eb4acc-ed4a-4c6b-85f4-0558308fae82
+      InputGuid: f4b4ec71-966d-4fb9-b70f-c0651a77c859
+      OutputGuid: f18f4b85-096a-4007-96ce-7dfca51304ef
+  - CardGuid: 8797dfc6-fe74-4c04-8849-3640097c4fe5
+    Position: {x: 1150, y: 350}
+    Names:
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: Tyler Matthews
+    - ID:
+        Value: 10
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 12
+      CharacterName:
+        Value: Tyler Matthews
+    - ID:
+        Value: 14
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 16
+      CharacterName:
+        Value: Tyler Matthews
+    - ID:
+        Value: 18
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 304fb9f2-ae86-47a7-b547-461e006858c7
+      Texts:
+      - Name: 1
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 2
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 3
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 4
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 5
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 6
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 7
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 8
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 9
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      - Name: 10
+        Value: "I was at my mother\u2019s house. I moved there a few days ago\u2026"
+      AudioClips: []
+    - ID:
+        Value: 11
+      GuidID:
+        Value: 5939a73f-f143-492a-bd50-3e492f6603f3
+      Texts:
+      - Name: 1
+        Value: Why did you move out?
+      - Name: 2
+        Value: Why did you move out?
+      - Name: 3
+        Value: Why did you move out?
+      - Name: 4
+        Value: Why did you move out?
+      - Name: 5
+        Value: Why did you move out?
+      - Name: 6
+        Value: Why did you move out?
+      - Name: 7
+        Value: Why did you move out?
+      - Name: 8
+        Value: Why did you move out?
+      - Name: 9
+        Value: Why did you move out?
+      - Name: 10
+        Value: Why did you move out?
+      AudioClips: []
+    - ID:
+        Value: 13
+      GuidID:
+        Value: 79d6cea9-49a9-4804-b56e-231122f7607f
+      Texts:
+      - Name: 1
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 2
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 3
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 4
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 5
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 6
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 7
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 8
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 9
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      - Name: 10
+        Value: "Because Connie was cheating on me. I couldn\u2019t stand being with
+          her in the same place after she betrayed me like that\u2026"
+      AudioClips: []
+    - ID:
+        Value: 15
+      GuidID:
+        Value: a3814e74-f749-4ef8-bc74-e48cc6063c1d
+      Texts:
+      - Name: 1
+        Value: "I see\u2026"
+      - Name: 2
+        Value: "I see\u2026"
+      - Name: 3
+        Value: "I see\u2026"
+      - Name: 4
+        Value: "I see\u2026"
+      - Name: 5
+        Value: "I see\u2026"
+      - Name: 6
+        Value: "I see\u2026"
+      - Name: 7
+        Value: "I see\u2026"
+      - Name: 8
+        Value: "I see\u2026"
+      - Name: 9
+        Value: "I see\u2026"
+      - Name: 10
+        Value: "I see\u2026"
+      AudioClips: []
+    - ID:
+        Value: 17
+      GuidID:
+        Value: 203f5427-06ce-4f75-a906-b2f2f388f63c
+      Texts:
+      - Name: 1
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 2
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 3
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 4
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 5
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 6
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 7
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 8
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 9
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      - Name: 10
+        Value: "I know what you think, but it wasn\u2019t me. My mother can confirm,
+          I came back from work straight to her place."
+      AudioClips: []
+    - ID:
+        Value: 19
+      GuidID:
+        Value: cf60dbd3-e634-4141-bdfa-7fcce29b5b16
+      Texts:
+      - Name: 1
+        Value: "We\u2019ll check that."
+      - Name: 2
+        Value: "We\u2019ll check that."
+      - Name: 3
+        Value: "We\u2019ll check that."
+      - Name: 4
+        Value: "We\u2019ll check that."
+      - Name: 5
+        Value: "We\u2019ll check that."
+      - Name: 6
+        Value: "We\u2019ll check that."
+      - Name: 7
+        Value: "We\u2019ll check that."
+      - Name: 8
+        Value: "We\u2019ll check that."
+      - Name: 9
+        Value: "We\u2019ll check that."
+      - Name: 10
+        Value: "We\u2019ll check that."
+      AudioClips: []
+    Images: []
+    Ports: []
+  - CardGuid: 4bf6cdbc-6f60-4c2b-8a64-837582a01ac3
+    Position: {x: 1500, y: 650}
+    Names:
+    - ID:
+        Value: 20
+      CharacterName:
+        Value: Tyler Matthews
+    - ID:
+        Value: 22
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 24
+      CharacterName:
+        Value: Tyler Matthews
+    - ID:
+        Value: 26
+      CharacterName:
+        Value: Aiden Hayes
+    - ID:
+        Value: 28
+      CharacterName:
+        Value: Tyler Matthews
+    - ID:
+        Value: 30
+      CharacterName:
+        Value: Aiden Hayes
+    Dialogues:
+    - ID:
+        Value: 21
+      GuidID:
+        Value: 91a59e2c-cea2-4dcd-92cc-d8cffdc0b370
+      Texts:
+      - Name: 1
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 2
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 3
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 4
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 5
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 6
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 7
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 8
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 9
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      - Name: 10
+        Value: It was 5 days ago. I was packing for a business trip and I found a
+          box with pictures of her and some man. I confronted her about it and she
+          admitted she had an affair. I moved out the same day.
+      AudioClips: []
+    - ID:
+        Value: 23
+      GuidID:
+        Value: b8160fd8-62b0-433e-832f-2f7225c987f0
+      Texts:
+      - Name: 1
+        Value: How did you react to the news?
+      - Name: 2
+        Value: How did you react to the news?
+      - Name: 3
+        Value: How did you react to the news?
+      - Name: 4
+        Value: How did you react to the news?
+      - Name: 5
+        Value: How did you react to the news?
+      - Name: 6
+        Value: How did you react to the news?
+      - Name: 7
+        Value: How did you react to the news?
+      - Name: 8
+        Value: How did you react to the news?
+      - Name: 9
+        Value: How did you react to the news?
+      - Name: 10
+        Value: How did you react to the news?
+      AudioClips: []
+    - ID:
+        Value: 25
+      GuidID:
+        Value: cbb97686-7e07-44b5-856f-d65b0936b6c2
+      Texts:
+      - Name: 1
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 2
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 3
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 4
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 5
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 6
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 7
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 8
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 9
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      - Name: 10
+        Value: "I wasn\u2019t violent if you\u2019re suggesting that. I was just
+          disappointed and sad honestly. I didn\u2019t expect her to do something
+          like that."
+      AudioClips: []
+    - ID:
+        Value: 27
+      GuidID:
+        Value: 3a0caedf-6303-4cc4-9335-78295d842398
+      Texts:
+      - Name: 1
+        Value: So you say you were all calm and composed?
+      - Name: 2
+        Value: So you say you were all calm and composed?
+      - Name: 3
+        Value: So you say you were all calm and composed?
+      - Name: 4
+        Value: So you say you were all calm and composed?
+      - Name: 5
+        Value: So you say you were all calm and composed?
+      - Name: 6
+        Value: So you say you were all calm and composed?
+      - Name: 7
+        Value: So you say you were all calm and composed?
+      - Name: 8
+        Value: So you say you were all calm and composed?
+      - Name: 9
+        Value: So you say you were all calm and composed?
+      - Name: 10
+        Value: So you say you were all calm and composed?
+      AudioClips: []
+    - ID:
+        Value: 29
+      GuidID:
+        Value: 8bf92625-6f84-4553-9af1-de2575a34bc0
+      Texts:
+      - Name: 1
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 2
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 3
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 4
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 5
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 6
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 7
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 8
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 9
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      - Name: 10
+        Value: "You won\u2019t make me confess to something I didn\u2019t do. No,
+          I wasn\u2019t calm and composed, but I didn\u2019t use any violence or
+          force on her. We argued that\u2019s true, but I just left after and never
+          came back."
+      AudioClips: []
+    - ID:
+        Value: 31
+      GuidID:
+        Value: ee439d7a-45ec-4259-b936-98690c13c99c
+      Texts:
+      - Name: 1
+        Value: I see.
+      - Name: 2
+        Value: I see.
+      - Name: 3
+        Value: I see.
+      - Name: 4
+        Value: I see.
+      - Name: 5
+        Value: I see.
+      - Name: 6
+        Value: I see.
+      - Name: 7
+        Value: I see.
+      - Name: 8
+        Value: I see.
+      - Name: 9
+        Value: I see.
+      - Name: 10
+        Value: I see.
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas:
+  - CardGuid: b6f97930-98e0-4477-86c2-ef12168cdf4b
+    Position: {x: 800, y: 350}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: Where were you yesterday at 5pm?
+    - Name: 2
+      Value: Where were you yesterday at 5pm?
+    - Name: 3
+      Value: Where were you yesterday at 5pm?
+    - Name: 4
+      Value: Where were you yesterday at 5pm?
+    - Name: 5
+      Value: Where were you yesterday at 5pm?
+    - Name: 6
+      Value: Where were you yesterday at 5pm?
+    - Name: 7
+      Value: Where were you yesterday at 5pm?
+    - Name: 8
+      Value: Where were you yesterday at 5pm?
+    - Name: 9
+      Value: Where were you yesterday at 5pm?
+    - Name: 10
+      Value: Where were you yesterday at 5pm?
+    VoiceOvers: []
+    Conditions: []
+  - CardGuid: f4b4ec71-966d-4fb9-b70f-c0651a77c859
+    Position: {x: 800, y: 500}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: When was the last time you met the victim?
+    - Name: 2
+      Value: When was the last time you met the victim?
+    - Name: 3
+      Value: When was the last time you met the victim?
+    - Name: 4
+      Value: When was the last time you met the victim?
+    - Name: 5
+      Value: When was the last time you met the victim?
+    - Name: 6
+      Value: When was the last time you met the victim?
+    - Name: 7
+      Value: When was the last time you met the victim?
+    - Name: 8
+      Value: When was the last time you met the victim?
+    - Name: 9
+      Value: When was the last time you met the victim?
+    - Name: 10
+      Value: When was the last time you met the victim?
+    VoiceOvers: []
+    Conditions: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 3c6cd51e-019e-4c2f-91f5-897a9f7b05cd
+    Position: {x: 1500, y: 250}
+    EndState:
+      Value: 3
+  - CardGuid: 3d364952-65d3-4a7c-b817-298ee54507fa
+    Position: {x: 1850, y: 550}
+    EndState:
+      Value: 1

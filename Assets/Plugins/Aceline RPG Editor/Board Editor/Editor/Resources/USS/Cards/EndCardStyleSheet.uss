@@ -1,0 +1,85 @@
+.node #title
+{
+	background-color: #CC3A00;
+}
+
+#node-border{
+	background-color: rgb(30,30,30);
+}
+
+.eventTopMenuButton
+{
+	background-color: rgba(29,115,57,1);
+	border-width : 0px;
+}
+
+
+.branchTopMenuButton
+{
+	background-color: rgba(29,115,57,1);
+	border-width : 0px;
+}
+
+.Label
+{
+	margin-top: 5px;
+	margin-left: 4px;
+	font-size: 12px;
+}
+
+.AddButton
+{
+	background-color: rgb(30,30,30);
+}
+.DeleteButton
+{
+	padding-bottom:0px;
+	width:18px;
+	border-radius:8px;
+	background-color: rgb(150,120,0);
+	color : rgb(255,255,255);
+	-unity-font-style : bold;	
+}
+
+.faceImagePreview
+{
+	width:200px;
+	max-height:200px;
+	margin:auto;
+}
+
+
+.eventBox
+{
+	flex-direction : row;
+}
+
+.eventTextField
+{
+	width : 150px;
+}
+
+.eventIntField
+{
+	width : 45px;
+}
+
+.eventObjectField
+{
+	width : 201px;
+}
+
+.eventDeleteButton
+{
+	padding-bottom:0px;
+	width:18px;
+	border-radius:8px;
+	background-color: rgb(150,120,0);
+	color : rgb(255,255,255);
+	-unity-font-style : bold;
+}
+
+.branchBox
+{
+	flex-direction : row;
+}

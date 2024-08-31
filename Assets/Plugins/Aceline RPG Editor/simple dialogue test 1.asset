@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: simple dialogue test 1
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: 191676d0-bd35-4f16-a937-71f86755bfa2
+    BasePortName: Output
+    TargetCardGuid: a2a12eff-f85a-48ce-8993-b324a34e2102
+    TargetPortName: Input
+  - BaseCardGuid: a2a12eff-f85a-48ce-8993-b324a34e2102
+    BasePortName: Continue
+    TargetCardGuid: 92694314-5fa8-4a00-a4a9-40e979e5acf9
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: 191676d0-bd35-4f16-a937-71f86755bfa2
+    Position: {x: 100, y: 350}
+  DialogueDatas:
+  - CardGuid: a2a12eff-f85a-48ce-8993-b324a34e2102
+    Position: {x: 450, y: 350}
+    Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: Police A
+    - ID:
+        Value: 2
+      CharacterName:
+        Value: Detective
+    - ID:
+        Value: 4
+      CharacterName:
+        Value: Police A
+    - ID:
+        Value: 6
+      CharacterName:
+        Value: Detective
+    - ID:
+        Value: 8
+      CharacterName:
+        Value: Police A
+    - ID:
+        Value: 10
+      CharacterName:
+        Value: Detective
+    Dialogues:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 2be66999-751c-44fc-bb98-8fd84e4281ff
+      Texts:
+      - Name: 1
+        Value: Good morning Detective.
+      - Name: 2
+        Value: Good morning Detective.
+      - Name: 3
+        Value: Good morning Detective.
+      - Name: 4
+        Value: Good morning Detective.
+      - Name: 5
+        Value: Good morning Detective.
+      - Name: 6
+        Value: Good morning Detective.
+      - Name: 7
+        Value: Good morning Detective.
+      - Name: 8
+        Value: Good morning Detective.
+      - Name: 9
+        Value: Good morning Detective.
+      - Name: 10
+        Value: Good morning Detective.
+      AudioClips: []
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 2621c645-96bb-4898-bce4-efd4200258e9
+      Texts:
+      - Name: 1
+        Value: Good Morning Officer!
+      - Name: 2
+        Value: Good Morning Officer!
+      - Name: 3
+        Value: Good Morning Officer!
+      - Name: 4
+        Value: Good Morning Officer!
+      - Name: 5
+        Value: Good Morning Officer!
+      - Name: 6
+        Value: Good Morning Officer!
+      - Name: 7
+        Value: Good Morning Officer!
+      - Name: 8
+        Value: Good Morning Officer!
+      - Name: 9
+        Value: Good Morning Officer!
+      - Name: 10
+        Value: Good Morning Officer!
+      AudioClips: []
+    - ID:
+        Value: 5
+      GuidID:
+        Value: 6e23f5e7-34de-4c26-a000-6403c9a242f7
+      Texts:
+      - Name: 1
+        Value: This is simple linear dialogue test
+      - Name: 2
+        Value: This is simple linear dialogue test
+      - Name: 3
+        Value: This is simple linear dialogue test
+      - Name: 4
+        Value: This is simple linear dialogue test
+      - Name: 5
+        Value: This is simple linear dialogue test
+      - Name: 6
+        Value: This is simple linear dialogue test
+      - Name: 7
+        Value: This is simple linear dialogue test
+      - Name: 8
+        Value: This is simple linear dialogue test
+      - Name: 9
+        Value: This is simple linear dialogue test
+      - Name: 10
+        Value: This is simple linear dialogue test
+      AudioClips: []
+    - ID:
+        Value: 7
+      GuidID:
+        Value: 06972236-4a46-42e6-82b4-d31a96b7646f
+      Texts:
+      - Name: 1
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 2
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 3
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 4
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 5
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 6
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 7
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 8
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 9
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      - Name: 10
+        Value: Oh okay, so how if i want to add new linebreak to sentences
+      AudioClips: []
+    - ID:
+        Value: 9
+      GuidID:
+        Value: 58e1e64c-fc05-4bbd-99ec-ec39fad033b7
+      Texts:
+      - Name: 1
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 2
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 3
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 4
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 5
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 6
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 7
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 8
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 9
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      - Name: 10
+        Value: You just do it,<br>simply like this.<br>But i guess it's need line
+          limit anyway
+      AudioClips: []
+    - ID:
+        Value: 11
+      GuidID:
+        Value: 995b5905-e692-454c-b2a8-38cc5840eff3
+      Texts:
+      - Name: 1
+        Value: OK, thank you officer
+      - Name: 2
+        Value: OK, thank you officer
+      - Name: 3
+        Value: OK, thank you officer
+      - Name: 4
+        Value: OK, thank you officer
+      - Name: 5
+        Value: OK, thank you officer
+      - Name: 6
+        Value: OK, thank you officer
+      - Name: 7
+        Value: OK, thank you officer
+      - Name: 8
+        Value: OK, thank you officer
+      - Name: 9
+        Value: OK, thank you officer
+      - Name: 10
+        Value: OK, thank you officer
+      AudioClips: []
+    Images: []
+    Ports: []
+  ChoiceDatas: []
+  BranchDatas: []
+  EventDatas: []
+  EndDatas:
+  - CardGuid: 92694314-5fa8-4a00-a4a9-40e979e5acf9
+    Position: {x: 800, y: 250}
+    EndState:
+      Value: 1

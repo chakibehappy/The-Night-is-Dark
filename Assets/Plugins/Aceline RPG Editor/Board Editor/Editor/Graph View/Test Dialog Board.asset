@@ -1,0 +1,514 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135600d9324e0c040a4c7e5f433d7fb1, type: 3}
+  m_Name: Test Dialog Board
+  m_EditorClassIdentifier: 
+  CardLinkDatas:
+  - BaseCardGuid: b8d60e41-8ae5-4bd4-9db1-5cbf90635ab6
+    BasePortName: Output
+    TargetCardGuid: e94caf2b-bd3a-4ab4-9af1-f1e69b1392cf
+    TargetPortName: Input
+  - BaseCardGuid: 07b8b785-9654-45f9-ba57-a24a3e2f256a
+    BasePortName: Output
+    TargetCardGuid: 28069d22-f47c-4685-b324-a1dd8256e36b
+    TargetPortName: Input
+  - BaseCardGuid: e94caf2b-bd3a-4ab4-9af1-f1e69b1392cf
+    BasePortName: False
+    TargetCardGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    TargetPortName: Input
+  - BaseCardGuid: e94caf2b-bd3a-4ab4-9af1-f1e69b1392cf
+    BasePortName: True
+    TargetCardGuid: f572cb33-4d14-42d9-b2b6-90df55aae249
+    TargetPortName: Input
+  - BaseCardGuid: aad56810-f86a-416b-8e7c-73c31a7c9bb6
+    BasePortName: Output
+    TargetCardGuid: b235bf5c-14c6-4b8c-af9e-f998ec689b3a
+    TargetPortName: Input
+  - BaseCardGuid: 9b1d925f-6895-4ba2-a88a-aa2bb4a08bd7
+    BasePortName: Output
+    TargetCardGuid: b235bf5c-14c6-4b8c-af9e-f998ec689b3a
+    TargetPortName: Input
+  - BaseCardGuid: ad58029e-8277-4731-8461-74813733059f
+    BasePortName: Output
+    TargetCardGuid: 07b8b785-9654-45f9-ba57-a24a3e2f256a
+    TargetPortName: Input
+  - BaseCardGuid: b235bf5c-14c6-4b8c-af9e-f998ec689b3a
+    BasePortName: Continue
+    TargetCardGuid: 300cd6cc-b622-483a-b211-e14b6d508499
+    TargetPortName: Input
+  - BaseCardGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    BasePortName: be21d346-9b9f-453c-87d5-6987556d7eda
+    TargetCardGuid: aad56810-f86a-416b-8e7c-73c31a7c9bb6
+    TargetPortName: Input
+  - BaseCardGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    BasePortName: 1e5ab71c-08e2-45dd-80a7-c801300c7616
+    TargetCardGuid: 9b1d925f-6895-4ba2-a88a-aa2bb4a08bd7
+    TargetPortName: Input
+  - BaseCardGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    BasePortName: 3d0a21af-145b-404c-a84c-7ecbae7c03b5
+    TargetCardGuid: ad58029e-8277-4731-8461-74813733059f
+    TargetPortName: Input
+  - BaseCardGuid: f572cb33-4d14-42d9-b2b6-90df55aae249
+    BasePortName: 38d0d435-b514-4cbe-8791-12e9a48a67e8
+    TargetCardGuid: 9b1d925f-6895-4ba2-a88a-aa2bb4a08bd7
+    TargetPortName: Input
+  - BaseCardGuid: f572cb33-4d14-42d9-b2b6-90df55aae249
+    BasePortName: df43de21-0298-40ee-9628-469b1e197ddf
+    TargetCardGuid: ad58029e-8277-4731-8461-74813733059f
+    TargetPortName: Input
+  StartDatas:
+  - CardGuid: b8d60e41-8ae5-4bd4-9db1-5cbf90635ab6
+    Position: {x: -272, y: 105.600006}
+  DialogueDatas:
+  - CardGuid: b235bf5c-14c6-4b8c-af9e-f998ec689b3a
+    Position: {x: 884.8, y: -84}
+    Names: []
+    Dialogues:
+    - ID:
+        Value: 0
+      GuidID:
+        Value: 204afae9-2491-48f0-bb2c-03070e0da67d
+      Texts:
+      - Name: 1
+        Value: 'This the last
+
+          by by'
+      - Name: 2
+        Value: 
+      - Name: 3
+        Value: 
+      - Name: 4
+        Value: 
+      - Name: 5
+        Value: 
+      - Name: 6
+        Value: 
+      - Name: 7
+        Value: 
+      - Name: 8
+        Value: 
+      - Name: 9
+        Value: 
+      - Name: 10
+        Value: 
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports: []
+  - CardGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    Position: {x: 296, y: 176}
+    Names:
+    - ID:
+        Value: 1
+      CharacterName:
+        Value: Detective
+    Dialogues:
+    - ID:
+        Value: 2
+      GuidID:
+        Value: ed42c5d4-c56c-4bb7-80c6-19f141329e72
+      Texts:
+      - Name: 1
+        Value: Hello there
+      - Name: 2
+        Value: 
+      - Name: 3
+        Value: 
+      - Name: 4
+        Value: 
+      - Name: 5
+        Value: 
+      - Name: 6
+        Value: 
+      - Name: 7
+        Value: 
+      - Name: 8
+        Value: 
+      - Name: 9
+        Value: 
+      - Name: 10
+        Value: 
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    - ID:
+        Value: 3
+      GuidID:
+        Value: 61a4d689-3277-4959-bfea-9a15aee3d5fb
+      Texts:
+      - Name: 1
+        Value: I will show you choice after this
+      - Name: 2
+        Value: 
+      - Name: 3
+        Value: 
+      - Name: 4
+        Value: 
+      - Name: 5
+        Value: 
+      - Name: 6
+        Value: 
+      - Name: 7
+        Value: 
+      - Name: 8
+        Value: 
+      - Name: 9
+        Value: 
+      - Name: 10
+        Value: 
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images:
+    - ID:
+        Value: 0
+      LeftSprite:
+        Value: {fileID: 21300000, guid: 26c2027679665a04db1baa5dd0458f2c, type: 3}
+      RightSprite:
+        Value: {fileID: 0}
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: be21d346-9b9f-453c-87d5-6987556d7eda
+      InputGuid: aad56810-f86a-416b-8e7c-73c31a7c9bb6
+      OutputGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    - ID:
+        Value: 0
+      PortGuid: 1e5ab71c-08e2-45dd-80a7-c801300c7616
+      InputGuid: 9b1d925f-6895-4ba2-a88a-aa2bb4a08bd7
+      OutputGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    - ID:
+        Value: 0
+      PortGuid: 3d0a21af-145b-404c-a84c-7ecbae7c03b5
+      InputGuid: ad58029e-8277-4731-8461-74813733059f
+      OutputGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+  - CardGuid: f572cb33-4d14-42d9-b2b6-90df55aae249
+    Position: {x: 294.4, y: -72.8}
+    Names: []
+    Dialogues:
+    - ID:
+        Value: 0
+      GuidID:
+        Value: 7e554748-e316-445d-bce6-3589a3958c55
+      Texts:
+      - Name: 1
+        Value: 'This is working
+
+          Its a branching'
+      - Name: 2
+        Value: 
+      - Name: 3
+        Value: 
+      - Name: 4
+        Value: 
+      - Name: 5
+        Value: 
+      - Name: 6
+        Value: 
+      - Name: 7
+        Value: 
+      - Name: 8
+        Value: 
+      - Name: 9
+        Value: 
+      - Name: 10
+        Value: 
+      AudioClips:
+      - Name: 1
+        Value: {fileID: 0}
+      - Name: 2
+        Value: {fileID: 0}
+      - Name: 3
+        Value: {fileID: 0}
+      - Name: 4
+        Value: {fileID: 0}
+      - Name: 5
+        Value: {fileID: 0}
+      - Name: 6
+        Value: {fileID: 0}
+      - Name: 7
+        Value: {fileID: 0}
+      - Name: 8
+        Value: {fileID: 0}
+      - Name: 9
+        Value: {fileID: 0}
+      - Name: 10
+        Value: {fileID: 0}
+    Images: []
+    Ports:
+    - ID:
+        Value: 0
+      PortGuid: df43de21-0298-40ee-9628-469b1e197ddf
+      InputGuid: ad58029e-8277-4731-8461-74813733059f
+      OutputGuid: f572cb33-4d14-42d9-b2b6-90df55aae249
+    - ID:
+        Value: 0
+      PortGuid: 38d0d435-b514-4cbe-8791-12e9a48a67e8
+      InputGuid: 9b1d925f-6895-4ba2-a88a-aa2bb4a08bd7
+      OutputGuid: f572cb33-4d14-42d9-b2b6-90df55aae249
+  ChoiceDatas:
+  - CardGuid: aad56810-f86a-416b-8e7c-73c31a7c9bb6
+    Position: {x: 622.4, y: -232}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: CHoice 1
+    - Name: 2
+      Value: 
+    - Name: 3
+      Value: 
+    - Name: 4
+      Value: 
+    - Name: 5
+      Value: 
+    - Name: 6
+      Value: 
+    - Name: 7
+      Value: 
+    - Name: 8
+      Value: 
+    - Name: 9
+      Value: 
+    - Name: 10
+      Value: 
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: 9b1d925f-6895-4ba2-a88a-aa2bb4a08bd7
+    Position: {x: 622.4, y: 94.399994}
+    Choice:
+      Value: 2
+    Texts:
+    - Name: 1
+      Value: this B
+    - Name: 2
+      Value: 
+    - Name: 3
+      Value: 
+    - Name: 4
+      Value: 
+    - Name: 5
+      Value: 
+    - Name: 6
+      Value: 
+    - Name: 7
+      Value: 
+    - Name: 8
+      Value: 
+    - Name: 9
+      Value: 
+    - Name: 10
+      Value: 
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions: []
+  - CardGuid: ad58029e-8277-4731-8461-74813733059f
+    Position: {x: 627.2, y: 304.8}
+    Choice:
+      Value: 1
+    Texts:
+    - Name: 1
+      Value: Need coffee, Seriously
+    - Name: 2
+      Value: 
+    - Name: 3
+      Value: 
+    - Name: 4
+      Value: 
+    - Name: 5
+      Value: 
+    - Name: 6
+      Value: 
+    - Name: 7
+      Value: 
+    - Name: 8
+      Value: 
+    - Name: 9
+      Value: 
+    - Name: 10
+      Value: 
+    VoiceOvers:
+    - Name: 1
+      Value: {fileID: 0}
+    - Name: 2
+      Value: {fileID: 0}
+    - Name: 3
+      Value: {fileID: 0}
+    - Name: 4
+      Value: {fileID: 0}
+    - Name: 5
+      Value: {fileID: 0}
+    - Name: 6
+      Value: {fileID: 0}
+    - Name: 7
+      Value: {fileID: 0}
+    - Name: 8
+      Value: {fileID: 0}
+    - Name: 9
+      Value: {fileID: 0}
+    - Name: 10
+      Value: {fileID: 0}
+    Conditions:
+    - DataCardSet: {fileID: 0}
+      SelectedStat:
+        Name: 
+        Type: 0
+        DataValue: {fileID: 0}
+        BoolValue: 0
+        IntValue: 0
+        FloatValue: 0
+        StringValue: 
+        Vector3Value: {x: 0, y: 0, z: 0}
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        AudioClipValue: {fileID: 0}
+        SpriteValue: {fileID: 0}
+      Value:
+        Value: 0
+      Condition:
+        Value: 1
+  BranchDatas:
+  - CardGuid: e94caf2b-bd3a-4ab4-9af1-f1e69b1392cf
+    Position: {x: -156, y: 32}
+    OptionTrueGuid: f572cb33-4d14-42d9-b2b6-90df55aae249
+    OptionFalseGuid: 40c96840-869f-48bf-bcb9-4abb5cae1eb6
+    Conditions:
+    - DataCardSet: {fileID: 11400000, guid: 4a2e96f7668c49b49b54b834bd25d0c0, type: 2}
+      SelectedStat:
+        Name: Energy
+        Type: 3
+        DataValue: {fileID: 0}
+        BoolValue: 0
+        IntValue: 0
+        FloatValue: 3
+        StringValue: 
+        Vector3Value: {x: 0, y: 0, z: 0}
+        ColorValue: {r: 0, g: 0, b: 0, a: 0}
+        AudioClipValue: {fileID: 0}
+        SpriteValue: {fileID: 0}
+      Value:
+        Value: 0
+      Condition:
+        Value: 1
+  EventDatas:
+  - CardGuid: 07b8b785-9654-45f9-ba57-a24a3e2f256a
+    Position: {x: 916.8, y: 201.6}
+    Modifiers:
+    - Text:
+        Value: health
+      Value:
+        Value: 0.2
+      Modifier:
+        Value: 3
+    EventCardSet: []
+  EndDatas:
+  - CardGuid: 300cd6cc-b622-483a-b211-e14b6d508499
+    Position: {x: 1214.4, y: -0.80000114}
+    EndState:
+      Value: 1
+  - CardGuid: 28069d22-f47c-4685-b324-a1dd8256e36b
+    Position: {x: 1120, y: 220.8}
+    EndState:
+      Value: 4

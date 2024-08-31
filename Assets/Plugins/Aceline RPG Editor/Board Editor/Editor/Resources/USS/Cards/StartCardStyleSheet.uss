@@ -1,0 +1,4 @@
+.node #title
+{
+	background-color: #175F8C;
+}
